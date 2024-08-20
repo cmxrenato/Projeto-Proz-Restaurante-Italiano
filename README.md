@@ -10,3 +10,9 @@ Atualizada em 08-08-2024 às 18:30.
 Link do Figma do Projeto:
 
 https://www.figma.com/design/vWhLmleUkH8A8GCSRxlnDy/Tutti-Nostri-Ristorante?node-id=82-452&t=5zRjnITlWmJMSeSu-0
+
+# 20/0/2024:
+#Criada a página reserva.html dentro da pasta views, 
+#utilizando as imagens dentro da pasta image, printei como seria a página reserva e coloquei dentro da pasta Tela.
+
+
