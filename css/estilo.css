@@ -7,29 +7,49 @@
 body{
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
+    background-color: gray;
 }
 
 a{
     text-decoration: none;
 }
 header{
-    background-color: rgb(66, 172, 107);
+    border: 1px solid black;
+    background-color: white;
+    
 }
 header h1{
     display: flex;
     justify-content: center;
-    color: white;
+    
+    font-family: 'La Belle Aurore', cursive;
+  
+}
+
+.logo_e_titulo{
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+    
+
+}
+.logo_e_titulo img{
+    width: 100px;
+    height: 100px;
 }
 
 nav{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
+    justify-content: center;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+    
 
 }
 ul{
     list-style: none;
     display: flex;
     gap: 2.4rem;
-    margin-right: 2.4rem;
+   
 }
