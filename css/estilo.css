@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgb(66, 172, 107);
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+    margin-right: 2.4rem;
+}
