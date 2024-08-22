@@ -48,13 +48,13 @@ Aqui, os usuários podem comprar cartões presente, perfeitos para oferecer como
 1. **Clonar o Repositório**:
    - Execute o comando abaixo no terminal para clonar o repositório:
      ```bash
-     git clone https://github.com/seu-usuario/tutti-nostri-ristorante.git
+     git clone https://github.com/cmxrenato/Projeto-Proz-Restaurante-Italiano
      ```
   
 2. **Navegar para o Diretório**:
    - Entre na pasta do projeto clonado:
      ```bash
-     cd tutti-nostri-ristorante
+     cd Projeto-Proz-Restaurante-Italiano
      ```
   
 3. **Abrir o Arquivo HTML**:
