@@ -103,3 +103,7 @@ nav ul li{
     width: 100vw;
     height: 250px;
 }
+#tituloRodape{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 32px;
+}
