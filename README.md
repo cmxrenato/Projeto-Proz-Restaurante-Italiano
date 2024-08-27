@@ -89,7 +89,6 @@ Aqui está o endereço fictício utilizado no Google Maps:
 
 ---
 
-<<<<<<< HEAD
 https://www.figma.com/design/vWhLmleUkH8A8GCSRxlnDy/Tutti-Nostri-Ristorante?node-id=82-452&t=5zRjnITlWmJMSeSu-0
 
 # 20/0/2024:
@@ -97,5 +96,3 @@ https://www.figma.com/design/vWhLmleUkH8A8GCSRxlnDy/Tutti-Nostri-Ristorante?node
 #utilizando as imagens dentro da pasta image, printei como seria a página reserva e coloquei dentro da pasta Tela.
 
 
-=======
->>>>>>> 17292e40e703acd0c3aa0cba0f5613f5f91fa9cd
