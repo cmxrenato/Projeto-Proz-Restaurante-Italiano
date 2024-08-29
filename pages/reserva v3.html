@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tutti Nostri Ristorante - Reservas</title> 
+    <link rel="stylesheet" href="css/reserva.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="image/logo.png" alt="Logotipo">
+        <!-- <h1>Tutti Nostri Ristorante</h1>-->
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/cardapio.html">Cardápio</a></li>
+                <li><a href="/pages/sobre-nos.html">Sobre nós</a></li>
+                <li><a href="/pages/eventos.html">Eventos</a></li>
+                <li><a href="/pages/contato.html">Contato</a></li>
+                <li><a href="/pages/reserva.html">Reservas</a></li>
+                <li><a href="/pages/gift-card.html">Cartões Presente</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="/pages/login.html" class="entrar">Entrar</a>
+            <a href="/pages/register.html" class="registrar">Registrar</a>
+        </div>
+    </header>
+
+    <!-- Faixa gradiente com o título "Reservas" -->
+   <div class="faixa-gradiente" style="display: flex; justify-content: center; align-items: center; height: 200px;">
+    <h1 style="color: white;">RESERVAS</h1>
+ </div>
+    
+    
+    <main>
+        <h2>Faça sua Reserva</h2>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td align="right">Nome Completo:</td>
+                    <td><input type="text" name="nome" required></td>
+                </tr>
+                <tr>
+                    <td align="right">Número de Telefone:</td>
+                    <td><input type="tel" name="telefone" required></td>
+                </tr>
+                <tr>
+                    <td align="right">Data da Reserva:</td>
+                    <td><input type="date" name="data" required></td>
+                </tr>
+                <tr>
+                    <td align="right">Horário da Reserva:</td>
+                    <td><input type="time" name="horario" required></td>
+                </tr>
+                <tr>
+                    <td align="right">Número de Pessoas:</td>
+                    <td>
+                        <select name="pessoas">
+                            <option value="1">1 Pessoa</option>
+                            <option value="2">2 Pessoas</option>
+                            <option value="3">3 Pessoas</option>
+                            <option value="4">4 Pessoas</option>
+                            <option value="5">5 Pessoas</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Observações Especiais:</td>
+                    <td><textarea name="observacoes"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Reservar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>    
+
+    <footer>
+        <p>Tutti Nostri Ristorante</p>
+        <p>&copy; 2024 Tutti Nostri Ristorante. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
