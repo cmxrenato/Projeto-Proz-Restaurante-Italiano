@@ -22,6 +22,11 @@ O site do **Tutti Nostri Ristorante** foi cuidadosamente projetado para guiar os
 - **`main`**: A área principal de cada página, com conteúdo variado conforme descrito nas seções acima.
 - **`footer`**: O rodapé com o nome do restaurante e os direitos autorais, visível em todas as páginas.
 
+
+**Página de layout no figma**:
+   - Acesse a página onde toda construção de layout foi concebida:
+[https://www.figma.com/design/vWhLmleUkH8A8GCSRxlnDy/Tutti-Nostri-Ristorante?node-id=82-452&t=5zRjnITlWmJMSeSu-0) ](https://www.figma.com/design/vWhLmleUkH8A8GCSRxlnDy/Tutti-Nostri-Ristorante?node-id=82-452&t=5zRjnITlWmJMSeSu-0) 
+
 ## 📝 Funcionalidades Específicas
 
 ### Página de Contato
@@ -85,6 +90,7 @@ Aqui está o endereço fictício utilizado no Google Maps:
 
 ## 🏛 Direitos Autorais
 
+<<<<<<< HEAD
 &copy; 2024 Tutti Nostri Ristorante. Todos os direitos reservados.
 
 ---
@@ -96,3 +102,6 @@ https://www.figma.com/design/vWhLmleUkH8A8GCSRxlnDy/Tutti-Nostri-Ristorante?node
 #utilizando as imagens dentro da pasta image, printei como seria a página reserva e coloquei dentro da pasta Tela.
 
 
+=======
+&copy; 2024 Tutti Nostri Ristorante. Todos os direitos reservados.
+>>>>>>> a6cc567604cf0741431cdacfd54b304c28da628f
