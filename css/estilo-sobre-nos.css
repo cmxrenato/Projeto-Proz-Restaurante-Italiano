@@ -88,6 +88,7 @@ main {
     width: 100vw; /* Faz com que o main ocupe toda a largura da janela */
     margin: 0; 
     padding: 0; 
+    
 }
 
 #img-fundo{
@@ -106,6 +107,28 @@ main {
     font-family: 'Cinzel', serif;
     font-size: 60px;
     font-weight: bold;
+}
+.conteudo-main{
+    width: 1397px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+#sub1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #8B1A1A;
+    letter-spacing: 5px;
+}
+
+#sub2{
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #064635;
+    
 }
 
 
