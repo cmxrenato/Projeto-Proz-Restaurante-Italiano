@@ -37,7 +37,7 @@ nav{
     width: 1138px;
     height: 42px;
     justify-content: center;
-    font-size: 26px;
+    
 }
 
 nav a{
@@ -46,6 +46,9 @@ nav a{
 nav li{
     padding: 8px;
     color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
 }
 nav li:hover{
     color: white;
@@ -53,24 +56,25 @@ nav li:hover{
     border-radius: 10px;
     
 }
-
+.active li{
+    color: white;
+    background-color: #064635;
+    border-radius: 10px;
+}
 
 
 
 
 
 footer{
-   display: flex;
+   
     
 }
 #rodape1{
     display: flex;
     font-family: 'Inter', sans-serif;
-    flex-direction: column;
-    
-    
     height: 620px;
-    border: 1px solid black;
+   
 }
 #rodape2{
     display: flex;
@@ -78,6 +82,8 @@ footer{
     font-family: 'Inter', sans-serif;
     font-size: 22px;
     color: #064635;
+    
+   
 }
  .logo-rodape{
     
@@ -86,21 +92,24 @@ footer{
     text-align: center;
     width: 308px;
     margin-top: 30px;
-    border: 1px solid red;
+    margin-left: 20px;
+   
     
     
 }
 .redes{
-    border: 1px solid red;
+   margin-left: 25px;
+   
 }
-#rodape1 .redes ul{
+#rodape2 .redes ul{
     display: flex;
    list-style: none;
     
 }
-#rodape1 .redes img{
+#rodape2 .redes img{
     width: 58px;
     height: 58px;
+    margin-right: 25px;
 }
 #rodape1 section img{
     width: 272px;
@@ -143,4 +152,7 @@ footer{
 .copyright{
     display: flex;
     align-items: center;
+   
+    width: 100vw;
+    justify-content: center;
 }
