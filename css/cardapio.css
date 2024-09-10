@@ -133,7 +133,52 @@ main {
     font-size: 60px;
     color: #064635;
     margin-top: 50px;
+    
 }
+
+.pratos-selec-titulo{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#b-direito{
+    background-color: #8B1A1A ;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+#b-esquerdo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+#b-direito:hover{
+    background-color: rgb(244, 125, 125);
+}
+#b-esquerdo:hover{
+    background-color: #898989;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card{
     width: 1397px;
