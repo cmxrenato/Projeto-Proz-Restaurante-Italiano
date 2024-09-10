@@ -168,7 +168,55 @@ main {
 .pratos-cardapio{
     width: 1397px;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os elementos sejam quebrados em novas linhas */
+    gap: 16px;
+    
 }
+#card-prato{
+    width: 446px;
+    height: 523px;
+    background-color: white;
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 calc(33.333% - 16px); /* Garante 3 cards por linha */
+    border-radius: 55px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+    transition: box-shadow 0.3s ease; /* Transição suave ao passar o mouse */
+    
+    
+}
+#card-prato:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+#pratos{
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    
+    
+}
+#coracao{
+    text-align: end;
+    width: 446px;
+    
+}
+#coracao img{
+    cursor: pointer;
+}
+#preco-estrela{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 446px;
+    margin-bottom: 20px;
+    
+}
+
 
 
 
