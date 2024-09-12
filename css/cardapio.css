@@ -259,7 +259,7 @@ main {
 }
 .mini-cards{
     display: flex;
-    border: 1px solid black;
+    
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -269,20 +269,39 @@ main {
     width: 277px;
     height: 297.15px;
     background-color: white;
-    
+    padding: 20px;
     margin-bottom: 100px;
     margin-top: 150px;
-    /*display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+    
     align-items: center;
-    flex: 0 1 calc(33.333% - 16px);  Garante 3 cards por linha */
+    
     border-radius: 55px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
     transition: box-shadow 0.3s ease; /* Transição suave ao passar o mouse */
 }
 .mini-card-prato:hover{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+.mini-card-prato img{
+    width: 64px;
+    height: 64px;
+}
+.mini-card-prato p:nth-of-type(1){
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #8B1A1A;
+}
+.mini-card-prato p:nth-of-type(2){
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #C9A67C;
+    text-align: center;
 }
 
 
