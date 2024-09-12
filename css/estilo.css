@@ -5,101 +5,444 @@
 }
 
 body{
-    font-size: 1.6rem;
-   
-    font-family: 'Roboto', sans-serif;
-    background-image: url(/image/back-foto.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; /* Faz com que a imagem cubra toda a área visível */
-    height: 100vh;
-    width: 100vw;
-   
+    background-color: #F5F5DC;
 }
-
-a{
-    text-decoration: none;
+.categories {
+    padding: 5px;
+    background-color: #f5f5dc;
+    text-align: center;
+    margin-bottom: 50px; 
 }
 
 
-.cabecalho{
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.753);
-    margin: 15px 25px 15px 25px;
-    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
-    align-items: center;
-    justify-content: center;
-    
 
+.categories h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #156f2d;
 }
 
-header  h1{
+.category-cards {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 30px;
+    color: #830808;
+}
+
+.text-section {
+    margin-top: 20px; /* Adiciona um espaçamento entre a imagem e o texto */
+    text-align: left;
+    margin-left: 200px;
     
-    font-family: 'La Belle Aurore', cursive;
+    color:#006400
+}
+
+.category-cards2 {
+    display: block;
+    justify-content: center;
+    gap: 30px;
+    color: #830808;
+   
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.card2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px; 
+    width: 150px;  /* Largura fixa */
+    height: 150px; /* Altura fixa */
+}
+
+.category-cards2 img{
+    width: 50px;
+
+}
+
+
+
+.card img {
+    width: 100px;
+    border-radius: 90%;  /* Torna a imagem circular */
+    object-fit: cover;   /* Garante que a imagem se ajuste bem ao contêiner */
+}
+
+.chef-suggestions {
+    padding: 50px;
+    background-color: #f5f5dc;
+    text-align: center;
+}
+
+.chef-suggestions h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #156f2d;
+    margin-bottom: 30px;
+}
+
+header{
+   width: auto;
+   height: 80px;
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.banner-header {
+background-image:url('/image/index/banner_home.png') ;
+}
+
+header img{
+    margin-left: 50px;
+}
+
+.suggestion-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.suggestion-cards .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.container {
+    display: flex;
+    /* Espaçamento automático entre as seções */
+    align-items: center; /* Alinha verticalmente as seções */
+    gap: 50px; /* Espaçamento entre as seções */
+}
+
+.container2 {
+    display: flex;
+    /* Espaçamento automático entre as seções */
+    align-items: center; /* Alinha verticalmente as seções */
+    gap: 200px; /* Espaçamento entre as seções */
+}
+
+
+.testimonials {
+    padding: 10px;
+    background-color: #f5f5dc;
+  
+
+    
+}
+  .testimonials img{
+    width: 50px;
+
+  }
+  .testimonials P{
+    text-align: left;
+  }
+  .testimonials H2{
+    text-align: left;
+  }
+
+
+#fonte_vermelha{
+
+    color: #830808;
+    text-align: left;
+}
+
+#fonte_vermelha2{
+
+    color: #830808;
+}
+
+.btn-white, .btn-red {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-white {
+    background-color: #fff;
+    color: ;
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
+}
+
+.btn-verde{
+    background-color: #087508;
+    color: #f8f3f3;
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
+}
+
+.btn-red {
+    background-color: #ff4500;
+    color: #fff;
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
+}
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.hero-section img{
+
+    width: 250px; /* Ajuste o tamanho da imagem conforme necessário */
+    display: block; /* Certifica-se de que a imagem é tratada como um bloco */ 
+    margin: 0 auto; 
+}
+
+.hero-section h1 {
+    color: #006400;
+    font-size: 48px;
+    margin: 20px 0;
+
+}
+.cta-buttons {
+    margin: 20px;
+}
+
+.chef-section img {
+    width: 250px; /* Ajuste o tamanho da imagem conforme necessário */
+    display: block; /* Certifica-se de que a imagem é tratada como um bloco */
+
+  
+    margin-left: 250px;
   
 }
-header figure img{
-    width: 200px;
-    height: 200px;
+
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    list-style-type: none;
+    
+
+
 }
+#botoes{
+    display: flex;
+    
+}
+#botoes button{
+    margin-right: 10px;
+    width: 100px;
+    height: 38px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border-color: #767676;
 
-
-
+}
+#registrar{
+    background-color: #8B1A1A;
+    color: white;
+}
 
 nav{
     display: flex;
-    align-items: center;
+    width: 1138px;
+    height: 42px;
     justify-content: center;
-    padding-right: 2.4rem;
-    padding-left: 2.4rem;
-    
-
-}
-nav figure {
-    margin-left: 80px;
-    margin-right: 40px;
-  
-    
-}
-ul{
-    list-style: none;
-    display: flex;
-    gap: 2.4rem;
-    
    
-}
-nav ul li{
-    font-size: 21px;
-}
-
-.conteudo{
-    background-color: rgba(255, 255, 255, 0.753);
-    margin: 15px 25px 15px 25px;
-    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
-    align-items: center;
-    justify-content: center;
-    width: 1182px;
-    height: 50vh;
-}
-
-
-
-
-
-
-
-
-.rodape{
-     display: flex;
-     justify-content: center;
-     align-items: flex-end;
-     font-size: 14px;
     
-    background-color: rgba(255, 255, 255, 0.753);
-    margin: 15px 25px 15px 25px;
-    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
-    height: 10vh;
-    width: 1182px;
+}
+
+nav a{
+    text-decoration: none;
+}
+nav li{
+    padding: 8px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+nav li:hover{
+    color: white;
+    background-color: #064635;
+    border-radius: 10px;
+    
+}
+
+.menu {
+
+    justify-content: center;
+}
+.active li{
+    color: white;
+    background-color: #064635;
+    border-radius: 10px;
+}
+
+
+main {
+    width: 100vw; /* Faz com que o main ocupe toda a largura da janela */
+    margin: 0; 
+    padding: 0; 
+}
+
+#img-fundo{
+    display: flex;
+    background-image: url(/image/fundo-sobre-nos.png);
+    height: 430px;
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size: cover; /* Faz com que a imagem cubra todo o background */
+    background-position: center; /* Centraliza a imagem */
+    justify-content: center;
+    align-items: center;
+}
+
+#img-fundo p{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rodape1{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    height: 620px;
+
+}
+#rodape2{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #064635;
+    
+
+}
+
+
+ .logo-rodape{
+    
+    color: #C9A67C;
+    font-size: 24px;
+    text-align: center;
+    width: 308px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    
+    
+}
+.redes{
+    margin-left: 25px;
+
+}
+#rodape2 .redes ul{
+    display: flex;
+    list-style: none;
+    
+}
+#rodape2 .redes img{
+    width: 58px;
+    height: 58px;
+    margin-right: 25px;
+}
+#rodape1 section img{
+    width: 272px;
+    height: 202px;
+    justify-content: center;
+}
+
+.listas-rodape{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-around;
+    
+}
+
+
+
+.listas-rodape ul li{
+    color: #064635;
+    list-style-type: none;
+    font-size: 24px;
+    margin-top: 25px;
+    
+}
+
+.listas-rodape a{
+    text-decoration: none;
+}
+
+.listas-rodape ul span{
+    font-size: 26px;
+    font-weight: 600; /*Semi Bold*/
+    margin-bottom: 25px;
+    color: #064635;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
 }
