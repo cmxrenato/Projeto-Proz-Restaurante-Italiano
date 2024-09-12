@@ -177,7 +177,9 @@ main {
     width: 446px;
     height: 523px;
     background-color: white;
-    margin: 16px 0;
+    
+    margin-bottom: 100px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -204,9 +206,7 @@ main {
     width: 446px;
     
 }
-#coracao img{
-    cursor: pointer;
-}
+
 #preco-estrela{
     display: flex;
     justify-content: space-around;
@@ -215,6 +215,46 @@ main {
     width: 446px;
     margin-bottom: 20px;
     
+    
+}
+#nota{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px !important;
+    color: #454545 ;
+}
+
+#preco-estrela span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF6868;
+}
+#preco-estrela p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.prato-e-descricao{
+    margin-left: 100px;
+    
+    width: 446px;
+   
+}
+.prato-e-descricao p{
+    margin-bottom: 15px;
+}
+
+.titulo-prato{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.subtitulo-prato{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #555555 ;
 }
 
 
