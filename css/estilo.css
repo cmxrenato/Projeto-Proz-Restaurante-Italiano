@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-size: 1.6rem;
+   
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/image/back-foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Faz com que a imagem cubra toda a área visível */
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.cabecalho{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.753);
+    margin: 15px 25px 15px 25px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+header  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'La Belle Aurore', cursive;
+  
+}
+header figure img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+    
+
+}
+nav figure {
+    margin-left: 80px;
+    margin-right: 40px;
+  
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+    
+   
+}
+nav ul li{
+    font-size: 21px;
+}
+
+.conteudo{
+    background-color: rgba(255, 255, 255, 0.753);
+    margin: 15px 25px 15px 25px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    width: 1182px;
+    height: 50vh;
+}
+
+
+
+
+
+
+
+
+.rodape{
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     font-size: 14px;
+    
+    background-color: rgba(255, 255, 255, 0.753);
+    margin: 15px 25px 15px 25px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    height: 10vh;
+    width: 1182px;
+}
