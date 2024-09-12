@@ -113,6 +113,7 @@ main {
     
     
     display: flex;
+    
     justify-content: center;
     
     margin-top: 75px;
@@ -129,7 +130,7 @@ main {
 
 .sub2{
     font-family: 'Cinzel', serif;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 60px;
     color: #064635;
     margin-top: 50px;
@@ -173,7 +174,7 @@ main {
     gap: 16px;
     
 }
-#card-prato{
+.card-prato{
     width: 446px;
     height: 523px;
     background-color: white;
@@ -191,7 +192,7 @@ main {
     
     
 }
-#card-prato:hover {
+.card-prato:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
 }
 #pratos{
@@ -255,6 +256,33 @@ main {
     font-weight: 600;
     font-size: 22px;
     color: #555555 ;
+}
+.mini-cards{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+.mini-card-prato{
+    width: 277px;
+    height: 297.15px;
+    background-color: white;
+    
+    margin-bottom: 100px;
+    margin-top: 150px;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 calc(33.333% - 16px);  Garante 3 cards por linha */
+    border-radius: 55px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+    transition: box-shadow 0.3s ease; /* Transição suave ao passar o mouse */
+}
+.mini-card-prato:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
 }
 
 

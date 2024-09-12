@@ -85,7 +85,7 @@ const cardapio = [
 for (let i = 0; i < cardapio.length; i++) {
     let div = document.createElement('div');
     let section = document.querySelector('.pratos-cardapio');
-    div.id = "card-prato";
+    div.className = "card-prato";
     div.innerHTML = `
         <span id="coracao"><img src="${cardapio[i].logo}"></span>
         <div id="imagem">
