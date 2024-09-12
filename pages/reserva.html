@@ -1,120 +1,161 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutti Nostri Ristorante - Reservas</title>
+
+    <title>Tutti Nostri - Reserva</title>
+    <link rel="stylesheet" href="/css/reserva.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     
+    
+
+</head>
+
 </head>
 <body>
-
-    <!-- Cabeçalho  
-    <table width="100%" border="0">
-        <tr>
-            <td width="10%" align="left">
-                <img src="../images/olds/bandeira2.png" alt="Bandeira da Itália" width="200">                
-            </td>
-            <td width="80%" align="center">
-                <h1>Tutti Nostri Ristorante</h1>
-            </td>
-            <td width="10%"></td>
-        </tr>
-        <tr>
-            <td colspan="3" align="center">
-                <a href="/index.html">Home</a>
-                <a href="/pages/cardapio.html">Cardápio</a>
-                <a href="/pages/sobre-nos.html">Sobre nós</a>
-                <a href="/pages/eventos.html">Eventos</a>
-                <a href="/pages/contato.html">Contatos</a>
-                <a href="/pages/reserva.html">Reservas</a>
-                <a href="/pages/gift-card.html">Cartões Presente</a>
-            </td>
-        </tr>
-    </table>
-    <br><br><br><br><br> -->
     <header>
-        <img src="../images/logo_mini.png" alt="Logotipo" height="50px" width="50px">
-        <h1>Tutti Nostri Ristorante</h1>
+        <a href="../index.html"><img src="/image/logo-principal-header.png" alt="Logo Principal"></a>
         <nav>
-              <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/cardapio.html">Cardápio</a></li>
-                <li><a href="/pages/sobre-nos.html">Sobre nós</a></li>
-                <li><a href="/pages/eventos.html">Eventos</a></li>
-                <li><a href="/pages/contato.html">Contatos</a></li>
-                <li><a href="/pages/reserva.html">Reservas</a></li>
-                <li><a href="/pages/gift-card.html">Cartões Presente</a></li>
+            <ul>
+                <a href="" ><li>Home</li></a>
+                <a href=""><li>Cardápio</li></a>
+                <a href="sobre-nos.html" ><li>Sobre Nós</li></a>
+                <a href=""><li>Eventos</li></a>
+                <a href=""><li>Contato</li></a>
+                <a href="" class="active"><li>Reservas</li></a>
+                <a href=""><li>Cartões presente</li></a>
             </ul>
+           
         </nav>
+        <div id="botoes">
+            <button onclick="window.location.href='https://www.exemplo.com'">Entrar</button>
+            <button id= "registrar" onclick="window.location.href='https://www.exemplo.com'">Registrar</button>
+        </div>
     </header>
-    
-    
-    
+
     <main>
-    <!-- Reservas -->
-        <div align="center">
-            <h2>Faça sua Reserva</h2>
-            <form action="#" method="post">
-            <table border="0">
-                <tr>
-                    <td align="right">Nome Completo:</td>
-                    <td><input type="text" name="nome" required></td>
-                </tr>
-                <tr>
-                    <td align="right">Número de Telefone:</td>
-                    <td><input type="tel" name="telefone" required></td>
-                </tr>
-                <tr>
-                    <td align="right">Data da Reserva:</td>
-                    <td><input type="date" name="data" required></td>
-                </tr>
-                <tr>
-                    <td align="right">Horário da Reserva:</td>
-                    <td><input type="time" name="horario" required></td>
-                </tr>
-                <tr>
-                    <td align="right">Número de Pessoas:</td>
-                    <td>
-                        <select name="pessoas">
-                            <option value="1">1 Pessoa</option>
-                            <option value="2">2 Pessoas</option>
-                            <option value="3">3 Pessoas</option>
-                            <option value="4">4 Pessoas</option>
-                            <option value="5">5 Pessoas</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="right">Observações Especiais:</td>
-                    <td><textarea name="observacoes"></textarea></td>
-                </tr>
-                <tr>
-                    <td colspan="2" align="center">
-                        <button type="submit">Reservar</button>
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </div>
-    </main>
-    <!-- Rodapé 
-    <table width="100%" border="0" cellpadding="0" cellspacing="0">
-        <tr>
-            <td align="center">
-                <img src="../images/olds/rodape.png" alt="Rodapé da Itália" width="100%">
-            </td>
-        </tr>
-        <tr>
-            <td align="center">
+        <section id="img-fundo"><p>Reservas</p></section>
+        <section class="main1">
+            <section class="conteudo-main">
+                <section>
+                    <div>
+                        <p class="sub1">NOSSA HISTÓRIA</p>
+                        <p class="sub2">Tutti Nostri <br>Ristorante</p>
+                    </div>
+                    <div class="div-form">
+                        <p class="sub1">FAÇA A SUA RESERVA</p>
+                        <form action="">
+                            <table>
+                            <tr>
+                                <td align="right">Nome Completo:</td>
+                                <td><input type="text" name="nome" required></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Número de Telefone:</td>
+                                <td><input type="tel" name="telefone" required></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Data da Reserva:</td>
+                                <td><input type="date" name="data" required></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Horário da Reserva:</td>
+                                <td><input type="time" name="horario" required></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Número de Pessoas:</td>
+                                <td>
+                                    <select name="pessoas">
+                                        <option value="1">1 Pessoa</option>
+                                        <option value="2">2 Pessoas</option>
+                                        <option value="3">3 Pessoas</option>
+                                        <option value="4">4 Pessoas</option>
+                                        <option value="5">5 Pessoas</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">Observações Especiais:</td>
+                                <td><textarea name="observacoes"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <button type="submit">Reservar</button>
+                                </td>
+                            </tr>
+                            </table>
+                        </form>
+                        
                 
-            </td>
-        </tr>
-    </table>-->
+                    </div>
+                </section>
+                
+            </section>
+        </section>
+        
+    </main>
 
     <footer>
-        <p>Tutti Nostri Ristorante</p>
-        <p>&copy; 2024 Tutti Nostri Ristorante. Todos os direitos reservados.</p>
-    </footer>
+        <div id="rodape1"> 
+            
+                <section class="logo-rodape">
+                    <img src="/image/bannerRestauranteMini 2@2x.png" alt="logo_footer">
+                    <p>Fundado em 1911, nosso restaurante nasceu da paixão pela culinária. </p>
+                </section>
+              
+                <section class="listas-rodape">
+                    <ul>
+                        <span>Links Úteis</span>
+                        <a href=""><li>Sobre Nós</li></a>
+                        <a href=""><li>Eventos</li></a>
+                        <a href=""><li>Blog</li></a>
+                        <a href=""><li>FAQ</li></a>
+                    </ul>
+                    <ul>
+                        <span>Menu Principal</span>
+                        <a href=""><li>Home</li></a>
+                        <a href=""><li>Reservas</li></a>
+                        <a href=""><li>Pratos</li></a>
+                        <a href=""><li>Cartões Presente</li></a>
+                    </ul>
+                    <ul>
+                        <span>Contatos</span>
+                        <a href=""><li>exampla@email.com</li></a>
+                        <a href=""><li>+95 958 248 966</li></a>
+                        <a href=""><li>Social Media</li></a>
+                        <li>&#8203;</li> <!--Item invisível para alinhar a tabela. -->
+                        
+                    </ul>
+                </section>
+            </div>
 
+            
+
+         </div>
+         <div id="rodape2">
+           
+            <section class="redes">
+                <ul>
+                    <a href=""><li><img src="/image/logo-face.png" alt="Logo do Facebook"></li></a>
+                    <a href=""><li><img src="/image/logo-insta.png" alt="Logo do Instagram"></li></a>
+                    <a href=""><li><img src="/image/logo-x.png" alt="Logo do X"></li></a>
+                    <a href=""><li><img src="/image/logo-youtube.png" alt="Logo do Youtube"></li></a>
+                </ul>
+                
+            </section>
+            <section class="copyright">
+                <p>Copyright &#169; 2024 Grupo 4 T31 | All rights reserved</p>
+            </section>
+           
+         </div>
+       
+       
+        
+    </footer>
 </body>
 </html>
+
