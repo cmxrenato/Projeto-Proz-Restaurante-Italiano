@@ -25,7 +25,7 @@ O site do **Tutti Nostri Ristorante** foi cuidadosamente projetado para guiar os
 
 **Página de layout no figma**:
    - Acesse a página onde toda construção de layout foi concebida:
-[https://www.figma.com/design/3OHNmXB2datUy9h16ETRLr/Tutti-Nostri-Ristorante---Web-Site?node-id=0-1&t=IpX0DckKhyfrkRAu-1) ](https://www.figma.com/design/3OHNmXB2datUy9h16ETRLr/Tutti-Nostri-Ristorante---Web-Site?node-id=0-1&t=IpX0DckKhyfrkRAu-1) 
+[https://www.figma.com/design/vWhLmleUkH8A8GCSRxlnDy/Tutti-Nostri-Ristorante?node-id=82-452&t=5zRjnITlWmJMSeSu-0) ](https://www.figma.com/design/vWhLmleUkH8A8GCSRxlnDy/Tutti-Nostri-Ristorante?node-id=82-452&t=5zRjnITlWmJMSeSu-0) 
 
 ## 📝 Funcionalidades Específicas
 
@@ -51,16 +51,11 @@ Aqui, os usuários podem comprar cartões presente, perfeitos para oferecer como
 ## 🚀 Como Usar
 
 1. **Clonar o Repositório**:
-   - Execute o comando abaixo no terminal para clonar o repositório pricipal:
+   - Execute o comando abaixo no terminal para clonar o repositório:
      ```bash
      git clone https://github.com/cmxrenato/Projeto-Proz-Restaurante-Italiano
      ```
-   - Ou para clonar o repositório da branch novo-layout:
-     ```bash
-     git clone https://github.com/cmxrenato/Projeto-Proz-Restaurante-Italiano/tree/novo-layout
-     ```
-
-
+  
 2. **Navegar para o Diretório**:
    - Entre na pasta do projeto clonado:
      ```bash
@@ -93,68 +88,6 @@ Aqui está o endereço fictício utilizado no Google Maps:
 
 [Ver no Google Maps](https://www.google.com/maps)
 
-
-## Estilos do Site
-
-### 1. Títulos e Cabeçalhos
-- **Fonte:** Cinzel (Serifada, elegante, com um toque clássico)
-- **Cor:** 
-  - ![#064635](https://placehold.it/15/064635/000000?text=+) `#064635` (Verde Escuro)
-  - ![#8B1A1A](https://placehold.it/15/8B1A1A/000000?text=+) `#8B1A1A` (Vermelho Escuro)
-- **Tamanho:** Grande (24-36px)
-
-### 2. Subtítulos e Seções Importantes
-- **Fonte:** Playfair Display (Serifada, sofisticada)
-- **Cor:** 
-  - ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF` (Branco) sobre fundo escuro
-  - ![#C9A67C](https://placehold.it/15/C9A67C/000000?text=+) `#C9A67C` (Dourado)
-- **Tamanho:** Médio (18-24px)
-
-### 3. Texto Corporal
-- **Fonte:** Inter (Sans-serif, moderna e legível)
-- **Cor:** 
-  - ![#333333](https://placehold.it/15/333333/000000?text=+) `#333333` (Cinza Escuro)
-  - ![#000000](https://placehold.it/15/000000/000000?text=+) `#000000` (Preto) sobre fundo claro
-- **Tamanho:** Padrão (14-18px)
-
-### 4. Links e Botões
-- **Fonte:** Inter (Sans-serif, moderna e legível)
-- **Cor:** 
-  - ![#C9302C](https://placehold.it/15/C9302C/000000?text=+) `#C9302C` (Vermelho Intenso) para botões
-  - ![#007B3C](https://placehold.it/15/007B3C/000000?text=+) `#007B3C` (Verde) para links
-- **Efeitos:** 
-  - Substituição de cor ao passar o mouse (hover), como o texto se tornar ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF` com um fundo colorido correspondente.
-
-### 5. Rodapé e Texto Secundário
-- **Fonte:** Inter (Sans-serif, moderna e legível)
-- **Cor:** 
-  - ![#757575](https://placehold.it/15/757575/000000?text=+) `#757575` (Cinza Claro)
-  - ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF` (Branco) sobre fundo escuro
-- **Tamanho:** Pequeno (12-14px)
-
-### 6. Logotipo e Nome do Restaurante
-- **Fonte:** Cinzel (Serifada, elegante e clássica)
-- **Cor:** 
-  - ![#D4AF37](https://placehold.it/15/D4AF37/000000?text=+) `#D4AF37` (Dourado)
-  - ![#CD7F32](https://placehold.it/15/CD7F32/000000?text=+) `#CD7F32` (Bronze) para destacar o nome
-
-### 7. Sugestão de Combinações de Cores
-- **Fundo:**
-  - ![#F5F5DC](https://placehold.it/15/F5F5DC/000000?text=+) `#F5F5DC` (Bege Claro)
-  - ![#FAF9F6](https://placehold.it/15/FAF9F6/000000?text=+) `#FAF9F6` (Branco Suave)
-- **Destaques:**
-  - ![#556B2F](https://placehold.it/15/556B2F/000000?text=+) `#556B2F` (Verde Oliva)
-  - ![#8B1C1C](https://placehold.it/15/8B1C1C/000000?text=+) `#8B1C1C` (Vermelho Vinho)
-  - ![#8B4513](https://placehold.it/15/8B4513/000000?text=+) `#8B4513` (Marrom Rústico)
-
----
-
-
-
-Essas tipografias e combinações de cores foram escolhidas para reforçar o tema italiano clássico e rústico, mantendo uma experiência de usuário agradável e coerente.
-
-
 ## 🏛 Direitos Autorais
 
 &copy; 2024 Tutti Nostri Ristorante. Todos os direitos reservados.
-
