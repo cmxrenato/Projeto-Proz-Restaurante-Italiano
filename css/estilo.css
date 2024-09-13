@@ -1,0 +1,811 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    margin-bottom: 50px;
+    
+    width: 100vw;
+}
+
+body{
+    background-color: #F5F5DC;
+    
+
+    
+}
+
+.container-categorias-card{
+}
+
+
+.categories {
+    
+    background-color: #f5f5dc;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    
+   
+
+    
+}
+
+.categories h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.categories h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #156f2d;
+}
+
+.category-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #830808;
+    
+    margin-left: 50px;
+    
+    
+}
+
+.text-section {
+    margin-top: 20px; /* Adiciona um espaçamento entre a imagem e o texto */
+    text-align: left;
+    margin-left: 200px;
+    
+    color:#006400;
+}
+
+.category-cards2 {
+    display: block;
+    justify-content: center;
+    gap: 30px;
+    color: #830808;
+    
+   
+}
+#imagem img{
+    height: 180px ;
+    width:180px;
+}
+
+.card {
+    width: 326px;
+    height: 326px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    
+    border-radius: 55px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+    transition: box-shadow 0.3s ease; /* Transição suave ao passar o mouse */ 
+}
+.card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+   
+    text-align: center;
+    margin-bottom: 40px; 
+    width: 277px;  /* Largura fixa */
+    height: 297.15px; /* Altura fixa */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+    transition: box-shadow 0.3s ease; /* Transição suave ao passar o mouse */
+}
+.card2:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+.card2 img{
+    width: 64px;
+    height: 64px;
+}
+.card2 h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.card2 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:#C9A67C ;
+}
+.category-cards2 img{
+    width: 50px;
+
+}
+
+
+
+.card img {
+    width: 153px;
+    height: 153px;
+    border-radius: 50%;  /* Torna a imagem circular */
+    object-fit: cover;   /* Garante que a imagem se ajuste bem ao contêiner */
+}
+
+.chef-suggestions {
+    
+    width: 100vw;
+    background-color: #f5f5dc;
+    text-align: center;
+}
+
+.chef-suggestions h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #156f2d;
+    margin-bottom: 30px;
+}
+
+header{
+   width: auto;
+   height: 80px;
+   width: 100vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   justify-content: center;
+
+}
+
+#imagem-fundo{
+    background-image: url('/image/fundo-index.png');
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size: cover; /* Faz com que a imagem cubra todo o background */
+    background-position: center; /* Centraliza a imagem */
+    height: 1200px;
+    
+    width: 100vw;
+    
+    
+
+}
+.banner-header {
+background-image:url('/image/index/banner_home.png') ;
+}
+
+header img{
+    margin-left: 50px;
+}
+
+.suggestion-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.suggestion-cards .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.container {
+    display: flex;
+    
+    margin-top: 150px;
+    gap: 10px; /* Espaçamento entre as seções */
+    margin-bottom: 150px;
+    
+}
+
+.container2 {
+    display: flex;
+    /* Espaçamento automático entre as seções */
+    align-items: center; /* Alinha verticalmente as seções */
+    justify-content: space-around;
+    
+}
+
+
+.testimonials {
+    padding: 10px;
+    background-color: #f5f5dc;
+  
+
+    
+}
+  .testimonials img{
+    width: 50px;
+   
+
+  }
+  .testimonials P{
+    text-align: left;
+  }
+  .testimonials H2{
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #064635;
+    margin-bottom: 25px;
+  }
+  .testimonials p:nth-of-type(2){
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #555555;
+  }
+
+
+#fonte_vermelha{
+
+    color: #830808;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#fonte_vermelha2{
+
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #8B1A1A;
+    letter-spacing: 5px;
+    margin-top: 100px;
+}
+.categories h2{
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #064635;
+    margin-top: 50px;
+}
+
+.btn-white, .btn-red {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+
+
+.btn-white {
+    background-color: #fff;
+    width: 179px;
+    height: 32px;
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
+}
+.btn-white:hover{
+    background-color: #767676;
+    color: #fff;
+}
+.btn-verde{
+    background-color: #087508;
+    color: #f8f3f3;
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
+}
+
+.btn-red {
+    background-color: #8B1A1A;
+    color: white;
+    width: 179px;
+    height: 32px;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
+}
+.btn-red:hover{
+    background-color: #ba4343;
+}
+.hero-section {
+    margin-top: 150px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.hero-section img{
+    height: 716px;
+    width: 628px; /* Ajuste o tamanho da imagem conforme necessário */
+    display: block; /* Certifica-se de que a imagem é tratada como um bloco */ 
+    margin: 0 auto; 
+}
+
+.hero-section h1 {
+    color: #006400;
+    font-size: 48px;
+    margin: 20px 0;
+
+}
+.cta-buttons {
+    margin: 20px;
+}
+.chef-section{
+    margin-right: 70px;
+}
+.chef-section img {
+    width: 581px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 750px;
+    display: block; /* Certifica-se de que a imagem é tratada como um bloco */
+
+
+  
+    margin-left: 50px;
+  
+}
+
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    list-style-type: none;
+    
+    
+
+
+}
+#botoes{
+    display: flex;
+    
+}
+#botoes button{
+    margin-right: 10px;
+    width: 100px;
+    height: 38px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border-color: #767676;
+
+}
+#registrar{
+    background-color: #8B1A1A;
+    color: white;
+}
+
+nav{
+    display: flex;
+    width: 1138px;
+    height: 42px;
+    
+    
+   
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+nav li{
+    margin-top: 50px;
+    padding: 8px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+nav li:hover{
+    color: white;
+    background-color: #064635;
+    border-radius: 10px;
+    
+}
+
+.menu {
+
+    justify-content: center;
+    
+    
+}
+
+.active li{
+    color: white;
+    background-color: #064635;
+    border-radius: 10px;
+}
+
+
+
+
+#img-fundo{
+    display: flex;
+    background-image: url(/image/fundo-sobre-nos.png);
+    height: 430px;
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size: cover; /* Faz com que a imagem cubra todo o background */
+    background-position: center; /* Centraliza a imagem */
+    justify-content: center;
+    align-items: center;
+}
+
+#img-fundo p{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sub1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #8B1A1A;
+    letter-spacing: 5px;
+    
+    text-align: left;
+    margin-left: 5px;
+    
+}
+.sugestoes-chef{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: flex-end;
+
+    
+    
+}
+.sugestoes-chef div:nth-of-type(1){
+    margin-left: 50px;
+}
+.sugestoes-chef div:nth-of-type(2){
+    margin-right: 50px;
+}
+
+.sub2{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #064635;
+    margin-top: 50px;
+    
+}
+#b-direito{
+    background-color: #8B1A1A ;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+#b-esquerdo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+#b-direito:hover{
+    background-color: rgb(244, 125, 125);
+}
+#b-esquerdo:hover{
+    background-color: #898989;
+}
+.card-prato{
+    width: 400px;
+    height: 477px;
+    background-color: white;
+    
+    margin-bottom: 100px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 55px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+    transition: box-shadow 0.3s ease; /* Transição suave ao passar o mouse */
+    
+    
+}
+
+.card-prato:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+.pratos-cardapio{
+   
+    display: flex;
+    justify-content: center;
+   
+    margin-left: 50px;
+    gap: 56px;
+    
+}
+#pratos{
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    
+    
+}
+#coracao{
+    text-align: end;
+    width: 400px;
+    
+}
+
+#preco-estrela{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 446px;
+    margin-bottom: 20px;
+    
+    
+}
+#nota{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px !important;
+    color: #454545 ;
+}
+
+#preco-estrela span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF6868;
+}
+#preco-estrela p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.prato-e-descricao{
+    
+    
+    width: 446px;
+   
+}
+.prato-e-descricao p{
+    margin-bottom: 15px;
+}
+
+.titulo-prato{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.subtitulo-prato{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #555555 ;
+}
+
+#feed-cliente{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-top: 35px;
+    
+
+}
+
+#feed-cliente p:nth-of-type(1){
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    
+    
+    
+}
+#feed-cliente img{
+    width: 80px;
+    height: 80px;
+}
+
+#nota-review{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#nota-review p:nth-of-type(1){
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top:10px ;
+}
+#nota-review p:nth-of-type(2){
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top:10px ;
+}
+.benvenuti{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 200px;
+    
+    
+}
+.benvenuti .sub1{
+   text-align: left;
+   margin-left: 10px;
+    
+}
+.benvenuti .sub2{
+   
+    text-align: left;
+}
+.benvenuti button{
+    margin-top: 50px;
+    width: 215px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 26px ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600 ;
+    background-color:#064635 ;
+    color: white;
+    cursor: pointer;
+}
+.benvenuti button:hover{
+    background-color:#136c54 ;
+}
+.benvenuti div:nth-of-type(2){
+    display: flex;
+    justify-content: flex-start;
+}
+#paragrafo{
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    font-weight: medium;
+    margin-top: 26px;
+    color: #064635;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rodape1{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    height: 620px;
+
+}
+#rodape2{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #064635;
+    
+
+}
+
+
+ .logo-rodape{
+    
+    color: #C9A67C;
+    font-size: 24px;
+    text-align: center;
+    width: 308px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    
+    
+}
+.redes{
+    margin-left: 25px;
+
+}
+#rodape2 .redes ul{
+    display: flex;
+    list-style: none;
+    
+}
+#rodape2 .redes img{
+    width: 58px;
+    height: 58px;
+    margin-right: 25px;
+}
+#rodape1 section img{
+    width: 272px;
+    height: 202px;
+    justify-content: center;
+}
+
+.listas-rodape{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-around;
+    
+}
+
+
+
+.listas-rodape ul li{
+    color: #064635;
+    list-style-type: none;
+    font-size: 24px;
+    margin-top: 25px;
+    
+}
+
+.listas-rodape a{
+    text-decoration: none;
+}
+
+.listas-rodape ul span{
+    font-size: 26px;
+    font-weight: 600; /*Semi Bold*/
+    margin-bottom: 25px;
+    color: #064635;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+}
