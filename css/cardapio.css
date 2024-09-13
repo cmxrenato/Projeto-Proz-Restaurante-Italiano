@@ -10,7 +10,7 @@ body{
 }
 
 header{
-   width: 100%;
+   width: auto;
    height: 177px;
    background-color: #F5F5DC;
    display: flex;
@@ -29,7 +29,7 @@ header ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    width: 100%;
     list-style-type: none;
     
 
@@ -73,7 +73,7 @@ nav li{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 26px;
-    margin-right: 10px;
+    
 }
 nav li:hover{
     color: white;
