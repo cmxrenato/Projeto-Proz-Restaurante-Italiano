@@ -1,20 +1,31 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 }
 header{
     margin-bottom: 50px;
+   
+    width: 100vw;
 }
+
 body{
     background-color: #F5F5DC;
+    
+
+    
 }
+
+
+
 
 .categories {
     padding: 5px;
     background-color: #f5f5dc;
     text-align: center;
     margin-bottom: 50px; 
+    
 }
 
 .categories h3{
@@ -36,6 +47,7 @@ body{
     gap: 30px;
     color: #830808;
     
+    
 }
 
 .text-section {
@@ -51,7 +63,12 @@ body{
     justify-content: center;
     gap: 30px;
     color: #830808;
+    
    
+}
+#imagem img{
+    height: 180px ;
+    width:180px;
 }
 
 .card {
@@ -79,16 +96,40 @@ body{
 }
 
 .card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+   
     text-align: center;
     margin-bottom: 40px; 
-    width: 150px;  /* Largura fixa */
-    height: 150px; /* Altura fixa */
+    width: 277px;  /* Largura fixa */
+    height: 297.15px; /* Altura fixa */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+    transition: box-shadow 0.3s ease; /* Transição suave ao passar o mouse */
 }
-
+.card2:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+.card2 img{
+    width: 64px;
+    height: 64px;
+}
+.card2 h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.card2 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:#C9A67C ;
+}
 .category-cards2 img{
     width: 50px;
 
@@ -127,12 +168,16 @@ header{
    justify-content: center;
 
 }
+
 #imagem-fundo{
     background-image: url('/image/fundo-index.png');
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-size: cover; /* Faz com que a imagem cubra todo o background */
     background-position: center; /* Centraliza a imagem */
     height: 1200px;
+    
+    width: 100vw;
+    
 
 }
 .banner-header {
@@ -160,16 +205,18 @@ header img{
 }
 .container {
     display: flex;
-    /* Espaçamento automático entre as seções */
-    align-items: center; /* Alinha verticalmente as seções */
+    
+    margin-top: 150px;
     gap: 50px; /* Espaçamento entre as seções */
+    margin-bottom: 150px;
+    
 }
 
 .container2 {
     display: flex;
     /* Espaçamento automático entre as seções */
     align-items: center; /* Alinha verticalmente as seções */
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
@@ -375,6 +422,8 @@ nav li:hover{
 .menu {
 
     justify-content: center;
+    border: 1px solid blue;
+    
 }
 
 .active li{
@@ -384,11 +433,7 @@ nav li:hover{
 }
 
 
-main {
-    width: 100vw; /* Faz com que o main ocupe toda a largura da janela */
-    margin: 0; 
-    padding: 0; 
-}
+
 
 #img-fundo{
     display: flex;
@@ -416,12 +461,13 @@ main {
     letter-spacing: 5px;
     
     text-align: left;
+    margin-left: 5px;
     
 }
 .sugestoes-chef{
     display: flex;
     
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 
     
@@ -459,8 +505,8 @@ main {
     background-color: #898989;
 }
 .card-prato{
-    width: 446px;
-    height: 523px;
+    width: 400px;
+    height: 477px;
     background-color: white;
     
     margin-bottom: 100px;
@@ -475,15 +521,16 @@ main {
     
     
 }
+
 .card-prato:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
 }
 .pratos-cardapio{
-    width: 100vw;
+   
     display: flex;
     justify-content: center;
    
-    margin-left: 0px;
+    margin-left: 50px;
     gap: 56px;
     
 }
@@ -496,7 +543,7 @@ main {
 }
 #coracao{
     text-align: end;
-    width: 446px;
+    width: 400px;
     
 }
 
@@ -589,6 +636,51 @@ main {
     font-weight: 500;
     font-size: 24px;
     margin-top:10px ;
+}
+.benvenuti{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 200px;
+    
+    
+}
+.benvenuti .sub1{
+   text-align: left;
+   margin-left: 10px;
+    
+}
+.benvenuti .sub2{
+   
+    text-align: left;
+}
+.benvenuti button{
+    margin-top: 50px;
+    width: 215px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 26px ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600 ;
+    background-color:#064635 ;
+    color: white;
+    cursor: pointer;
+}
+.benvenuti button:hover{
+    background-color:#136c54 ;
+}
+.benvenuti div:nth-of-type(2){
+    display: flex;
+    justify-content: flex-start;
+}
+#paragrafo{
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    font-weight: medium;
+    margin-top: 26px;
+    color: #064635;
+    
+    
 }
 
 
