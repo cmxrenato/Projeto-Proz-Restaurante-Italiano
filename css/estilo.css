@@ -17,7 +17,12 @@ body{
     margin-bottom: 50px; 
 }
 
+.categories h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
 
+}
 
 .categories h2 {
     font-size: 32px;
@@ -30,6 +35,7 @@ body{
     justify-content: center;
     gap: 30px;
     color: #830808;
+    
 }
 
 .text-section {
@@ -163,7 +169,8 @@ header img{
     display: flex;
     /* Espaçamento automático entre as seções */
     align-items: center; /* Alinha verticalmente as seções */
-    gap: 200px; /* Espaçamento entre as seções */
+    justify-content: space-between;
+    
 }
 
 
@@ -176,6 +183,7 @@ header img{
 }
   .testimonials img{
     width: 50px;
+   
 
   }
   .testimonials P{
@@ -183,6 +191,17 @@ header img{
   }
   .testimonials H2{
     text-align: left;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #064635;
+    margin-bottom: 25px;
+  }
+  .testimonials p:nth-of-type(2){
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #555555;
   }
 
 
@@ -190,6 +209,9 @@ header img{
 
     color: #830808;
     text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #fonte_vermelha2{
@@ -279,13 +301,17 @@ header img{
 .cta-buttons {
     margin: 20px;
 }
-
+.chef-section{
+    margin-right: 70px;
+}
 .chef-section img {
-    width: 250px; /* Ajuste o tamanho da imagem conforme necessário */
+    width: 581px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 750px;
     display: block; /* Certifica-se de que a imagem é tratada como um bloco */
 
+
   
-    margin-left: 250px;
+    margin-left: 50px;
   
 }
 
@@ -395,8 +421,11 @@ main {
 .sugestoes-chef{
     display: flex;
     
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
+
+    
+    
 }
 
 .sub2{
@@ -429,12 +458,138 @@ main {
 #b-esquerdo:hover{
     background-color: #898989;
 }
+.card-prato{
+    width: 446px;
+    height: 523px;
+    background-color: white;
+    
+    margin-bottom: 100px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 55px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+    transition: box-shadow 0.3s ease; /* Transição suave ao passar o mouse */
+    
+    
+}
+.card-prato:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+.pratos-cardapio{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+   
+    margin-left: 0px;
+    gap: 56px;
+    
+}
+#pratos{
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    
+    
+}
+#coracao{
+    text-align: end;
+    width: 446px;
+    
+}
 
+#preco-estrela{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 446px;
+    margin-bottom: 20px;
+    
+    
+}
+#nota{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px !important;
+    color: #454545 ;
+}
 
+#preco-estrela span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF6868;
+}
+#preco-estrela p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.prato-e-descricao{
+    
+    
+    width: 446px;
+   
+}
+.prato-e-descricao p{
+    margin-bottom: 15px;
+}
 
+.titulo-prato{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.subtitulo-prato{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #555555 ;
+}
 
+#feed-cliente{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-top: 35px;
+    
 
+}
 
+#feed-cliente p:nth-of-type(1){
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    
+    
+    
+}
+#feed-cliente img{
+    width: 80px;
+    height: 80px;
+}
+
+#nota-review{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#nota-review p:nth-of-type(1){
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top:10px ;
+}
+#nota-review p:nth-of-type(2){
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top:10px ;
+}
 
 
 

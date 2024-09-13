@@ -173,6 +173,7 @@ main {
     flex-wrap: wrap; /* Permite que os elementos sejam quebrados em novas linhas */
     gap: 16px;
     
+    
 }
 .card-prato{
     width: 446px;
@@ -240,6 +241,7 @@ main {
     margin-left: 120px;
     
     width: 446px;
+    
    
 }
 .prato-e-descricao p{
