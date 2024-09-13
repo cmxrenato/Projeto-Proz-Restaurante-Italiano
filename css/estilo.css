@@ -3,10 +3,13 @@
     padding: 0;
     
 }
-
+header{
+    margin-bottom: 50px;
+}
 body{
     background-color: #F5F5DC;
 }
+
 .categories {
     padding: 5px;
     background-color: #f5f5dc;
@@ -34,7 +37,7 @@ body{
     text-align: left;
     margin-left: 200px;
     
-    color:#006400
+    color:#006400;
 }
 
 .category-cards2 {
@@ -102,7 +105,14 @@ header{
    justify-content: center;
 
 }
+#imagem-fundo{
+    background-image: url('/image/fundo-index.png');
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size: cover; /* Faz com que a imagem cubra todo o background */
+    background-position: center; /* Centraliza a imagem */
+    height: 1200px;
 
+}
 .banner-header {
 background-image:url('/image/index/banner_home.png') ;
 }
@@ -175,18 +185,24 @@ header img{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    margin-top: 50px;
+    
 }
 
 
 .btn-white {
     background-color: #fff;
-    color: ;
+    width: 179px;
+    height: 32px;
     border-radius: 10px; /* Define bordas arredondadas */
     padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
     border: none; /* Remove borda padrão */
     cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
 }
-
+.btn-white:hover{
+    background-color: #767676;
+    color: #fff;
+}
 .btn-verde{
     background-color: #087508;
     color: #f8f3f3;
@@ -197,14 +213,22 @@ header img{
 }
 
 .btn-red {
-    background-color: #ff4500;
+    background-color: #8B1A1A;
+    color: white;
+    width: 179px;
+    height: 32px;
+    margin-left: 10px;
     color: #fff;
     border-radius: 10px; /* Define bordas arredondadas */
     padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
     border: none; /* Remove borda padrão */
     cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
 }
+.btn-red:hover{
+    background-color: #ba4343;
+}
 .hero-section {
+    margin-top: 150px;
     background-size: cover;
     background-position: center;
     padding: 10px 0;
@@ -212,8 +236,8 @@ header img{
 }
 
 .hero-section img{
-
-    width: 250px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 716px;
+    width: 628px; /* Ajuste o tamanho da imagem conforme necessário */
     display: block; /* Certifica-se de que a imagem é tratada como um bloco */ 
     margin: 0 auto; 
 }
@@ -280,6 +304,7 @@ nav a{
     text-decoration: none;
 }
 nav li{
+    margin-top: 50px;
     padding: 8px;
     color: black;
     font-family: 'Inter', sans-serif;
@@ -297,6 +322,7 @@ nav li:hover{
 
     justify-content: center;
 }
+
 .active li{
     color: white;
     background-color: #064635;
