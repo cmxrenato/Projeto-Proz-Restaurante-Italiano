@@ -49,13 +49,27 @@ body{
 }
 
 .card {
-    background-color: #fff;
+    width: 326px;
+    height: 326px;
+    background-color: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 150px;
-    text-align: center;
-    margin-bottom: 40px; 
+    margin-bottom: 100px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    
+    border-radius: 55px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1); /* Adiciona a sombra */
+    transition: box-shadow 0.3s ease; /* Transição suave ao passar o mouse */ 
+}
+.card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
 }
 
 .card2 {
@@ -77,12 +91,14 @@ body{
 
 
 .card img {
-    width: 100px;
-    border-radius: 90%;  /* Torna a imagem circular */
+    width: 153px;
+    height: 153px;
+    border-radius: 50%;  /* Torna a imagem circular */
     object-fit: cover;   /* Garante que a imagem se ajuste bem ao contêiner */
 }
 
 .chef-suggestions {
+    
     padding: 50px;
     background-color: #f5f5dc;
     text-align: center;
@@ -178,7 +194,19 @@ header img{
 
 #fonte_vermelha2{
 
-    color: #830808;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #8B1A1A;
+    letter-spacing: 5px;
+    margin-top: 100px;
+}
+.categories h2{
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #064635;
+    margin-top: 50px;
 }
 
 .btn-white, .btn-red {
@@ -354,7 +382,53 @@ main {
     font-weight: bold;
 }
 
+.sub1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #8B1A1A;
+    letter-spacing: 5px;
+    
+    text-align: left;
+    
+}
+.sugestoes-chef{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: flex-end;
+}
 
+.sub2{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #064635;
+    margin-top: 50px;
+    
+}
+#b-direito{
+    background-color: #8B1A1A ;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+#b-esquerdo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+#b-direito:hover{
+    background-color: rgb(244, 125, 125);
+}
+#b-esquerdo:hover{
+    background-color: #898989;
+}
 
 
 
