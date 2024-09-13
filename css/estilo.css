@@ -7,19 +7,234 @@
 body{
     background-color: #F5F5DC;
 }
+.categories {
+    padding: 5px;
+    background-color: #f5f5dc;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+
+
+.categories h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #156f2d;
+}
+
+.category-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #830808;
+}
+
+.text-section {
+    margin-top: 20px; /* Adiciona um espaçamento entre a imagem e o texto */
+    text-align: left;
+    margin-left: 200px;
+    
+    color:#006400
+}
+
+.category-cards2 {
+    display: block;
+    justify-content: center;
+    gap: 30px;
+    color: #830808;
+   
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.card2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px; 
+    width: 150px;  /* Largura fixa */
+    height: 150px; /* Altura fixa */
+}
+
+.category-cards2 img{
+    width: 50px;
+
+}
+
+
+
+.card img {
+    width: 100px;
+    border-radius: 90%;  /* Torna a imagem circular */
+    object-fit: cover;   /* Garante que a imagem se ajuste bem ao contêiner */
+}
+
+.chef-suggestions {
+    padding: 50px;
+    background-color: #f5f5dc;
+    text-align: center;
+}
+
+.chef-suggestions h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #156f2d;
+    margin-bottom: 30px;
+}
 
 header{
    width: auto;
-   height: 177px;
-   background-color: #F5F5DC;
+   height: 80px;
+   
    display: flex;
    justify-content: space-between;
    align-items: center;
-
+   justify-content: center;
 
 }
+
+.banner-header {
+background-image:url('/image/index/banner_home.png') ;
+}
+
 header img{
     margin-left: 50px;
+}
+
+.suggestion-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.suggestion-cards .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.container {
+    display: flex;
+    /* Espaçamento automático entre as seções */
+    align-items: center; /* Alinha verticalmente as seções */
+    gap: 50px; /* Espaçamento entre as seções */
+}
+
+.container2 {
+    display: flex;
+    /* Espaçamento automático entre as seções */
+    align-items: center; /* Alinha verticalmente as seções */
+    gap: 200px; /* Espaçamento entre as seções */
+}
+
+
+.testimonials {
+    padding: 10px;
+    background-color: #f5f5dc;
+  
+
+    
+}
+  .testimonials img{
+    width: 50px;
+
+  }
+  .testimonials P{
+    text-align: left;
+  }
+  .testimonials H2{
+    text-align: left;
+  }
+
+
+#fonte_vermelha{
+
+    color: #830808;
+    text-align: left;
+}
+
+#fonte_vermelha2{
+
+    color: #830808;
+}
+
+.btn-white, .btn-red {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-white {
+    background-color: #fff;
+    color: ;
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
+}
+
+.btn-verde{
+    background-color: #087508;
+    color: #f8f3f3;
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
+}
+
+.btn-red {
+    background-color: #ff4500;
+    color: #fff;
+    border-radius: 10px; /* Define bordas arredondadas */
+    padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Troca o cursor para indicar que é um botão clicável */
+}
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.hero-section img{
+
+    width: 250px; /* Ajuste o tamanho da imagem conforme necessário */
+    display: block; /* Certifica-se de que a imagem é tratada como um bloco */ 
+    margin: 0 auto; 
+}
+
+.hero-section h1 {
+    color: #006400;
+    font-size: 48px;
+    margin: 20px 0;
+
+}
+.cta-buttons {
+    margin: 20px;
+}
+
+.chef-section img {
+    width: 250px; /* Ajuste o tamanho da imagem conforme necessário */
+    display: block; /* Certifica-se de que a imagem é tratada como um bloco */
+
+  
+    margin-left: 250px;
+  
 }
 
 
@@ -76,6 +291,11 @@ nav li:hover{
     background-color: #064635;
     border-radius: 10px;
     
+}
+
+.menu {
+
+    justify-content: center;
 }
 .active li{
     color: white;
@@ -157,6 +377,8 @@ main {
     
 
 }
+
+
  .logo-rodape{
     
     color: #C9A67C;
