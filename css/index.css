@@ -35,7 +35,8 @@ main{
     background-color: #f5f5dc;
     text-align: center;
     margin-bottom: 50px;
-    margin-right: 20px;
+    
+    
     
    
 
@@ -79,6 +80,7 @@ main{
     justify-content: center;
     gap: 30px;
     color: #830808;
+    margin-left: 50px;
     
    
 }
@@ -177,7 +179,7 @@ main{
 header{
    width: auto;
    height: 80px;
-   width: 100vw;
+   width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -192,7 +194,7 @@ header{
     background-position: center; /* Centraliza a imagem */
     height: 1200px;
     
-    width: 100vw;
+    width: 100%;
     
     
 
