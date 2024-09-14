@@ -16,6 +16,16 @@ body{
 
     
 }
+.layout-conteudo{
+    display: flex;
+    justify-content: center;
+}
+main{
+   
+    
+    width: 80vw;
+    
+}
 
 
 
@@ -152,7 +162,7 @@ body{
 
 .chef-suggestions {
     
-    width: 100vw;
+    
     background-color: #f5f5dc;
     text-align: center;
 }
