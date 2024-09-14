@@ -25,10 +25,12 @@ header img{
 
 header ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
     list-style-type: none;
+   
+    
     
 
 
@@ -71,6 +73,7 @@ nav li{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 26px;
+    margin-right: 30px;
 }
 nav li:hover{
     color: white;
