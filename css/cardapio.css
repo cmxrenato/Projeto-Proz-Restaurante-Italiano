@@ -94,7 +94,7 @@ nav li:hover{
 }
 main{
    
-    
+    border: 1px solid red;
     width: 80vw;
     
 }
@@ -158,6 +158,7 @@ main{
     border-radius: 50%;
     border: none;
     cursor: pointer;
+    margin-left: 20px;
 }
 #b-esquerdo{
     width: 80px;
@@ -165,7 +166,7 @@ main{
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    margin-right: 50px;
+    
 }
 #b-direito:hover{
     background-color: rgb(244, 125, 125);
@@ -410,7 +411,7 @@ main{
     display: flex;
     justify-content: center;
    
-    margin-left: 50px;
+    
     gap: 36px;
 }
 .card-prato{
