@@ -88,10 +88,15 @@ nav li:hover{
 }
 
 
-main {
-    width: 100vw; /* Faz com que o main ocupe toda a largura da janela */
-    margin: 0; 
-    padding: 0; 
+.layout-conteudo{
+    display: flex;
+    justify-content: center;
+}
+main{
+   
+    
+    width: 80vw;
+   
     
 }
 
