@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sobre Nós</title>
-    <link rel="stylesheet" href="/css/estilo-sobre-nos.css">
+    <title>Tutti Nostri - Cadastro</title>
+    <link rel="stylesheet" href="/css/reserva.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
             <ul>
                 <a href="../index.html" ><li>Home</li></a>
                     <a href="cardapio.html" ><li>Cardápio</li></a>
-                    <a href="sobre-nos.html" class="active" ><li>Sobre Nós</li></a>
+                    <a href="sobre-nos.html" ><li>Sobre Nós</li></a>
                     <a href=""><li>Eventos</li></a>
                     <a href="contato.html"><li>Contato</li></a>
                     <a href="reserva.html" ><li>Reservas</li></a>
@@ -33,58 +33,68 @@
         </nav>
         <div id="botoes">
             <button onclick="window.location.href='https://www.exemplo.com'">Entrar</button>
-            <button id= "registrar" onclick="window.location.href='cadastro.html'">Registrar</button>
+            <button id= "registrar" onclick="window.location.href='https://www.exemplo.com'">Registrar</button>
         </div>
     </header>
 
     
-        <section id="img-fundo"><p>Sobre Nós</p></section>
+        <section id="img-fundo"><p>Cadastro</p></section>
         <div class="layout-conteudo">
         <main>
         <section class="main1">
             <section class="conteudo-main">
-
-            <section>
-                <div>
-                    <p class="sub1">NOSSA HISTÓRIA</p>
-                    <p class="sub2">Tutti Nostri <br>Ristorante</p>
-                </div>
-                <div class="card">
-                    <div class="texto"><h3>O nosso restaurante:</h3>
-                        <h4>Como tudo começou...</h4>
-                        <p>Benvenuti ao Tutti Nostri Ristorante! No coração da cidade, Tutti Nostri Ristorante traz a autêntica experiência da cozinha italiana para você. Fundado em 1911, nosso restaurante nasceu da paixão pela culinária italiana e do desejo de compartilhar com nossos clientes o verdadeiro sabor da Itália. Nossa história começa com uma receita de família, que atravessou gerações e mares, trazendo consigo o segredo de pratos feitos com ingredientes frescos e de qualidade. Cada prato em nosso cardápio é preparado com amor e atenção aos detalhes, utilizando receitas tradicionais que preservam a essência da rica herança culinária italiana. No Tutti Nostri Ristorante, não apenas oferecemos refeições, mas também criamos memórias. Nossa decoração acolhedora, que remete aos charmosos ristorantes de Roma e Florença, proporciona um ambiente que convida a relaxar e desfrutar de cada momento. </p></div>
-                    
-                    <img src="/image/tutti-nostri.png" alt="Imagem da frente do restaurante">
-                </div>
-            </section>
-            
-            </section>
-        </section>
-        <section class="main2">
-            <section class="a">
-                <div>
-                    <p class="sub1">Nossa História e Serviços</p>
-                    <p class="sub2">Nossa jornada <br>culinária e serviços</p>
-                    <p id="paragrafo">Enraizados na paixão, nós criamos experiências<br> gastronômicas inesquecíveis e oferecemos serviços<br> excepcionais, combinando arte culinária com<br> hospitalidade calorosa.</p>
-                </div>
-                <button onclick="window.location.href='https://www.exemplo.com'" >Explorar</button>
-            </section>
-            <section class="conteudo-main">
-
                 <section>
-                    
-                    <div class="card">
-                        <div class="texto"><h3>O nosso restaurante:</h3>
-                            <h4>A nossa equipe...</h4>
+                    <div>
+                        <p class="sub1">NOSSA HISTÓRIA</p>
+                        <p class="sub2">Tutti Nostri <br>Ristorante</p>
+                    </div>
+                    <div class="div-form">
+                        <p class="sub1">FAÇA O SEU CADASTRO</p>
+                        <form action="">
+                            <table>
+                            <tr>
+                                <td align="right">Nome Completo:</td>
+                                <td><input type="text" name="nome" required></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Número de Telefone:</td>
+                                <td><input type="tel" name="telefone" required placeholder="Exemplo: (99)99999-999"></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Endereço:</td>
+                                <td><input type="text" name="endereco" required></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Email</td>
+                                <td><input type="email" name="email" required placeholder="exemplo@email.com"></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Senha</td>
+                                <td><input type="password" name="senha" required placeholder="A senha deve ter entre 6 e 8 caracteres"></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Confirme sua senha:</td>
+                                <td><input type="password" name="senha-confirm" required placeholder="Repita a sua senha"></td>
+                            </tr>
                             
-                                No Tutti Nostri Ristorante, contamos com uma equipe dedicada que torna cada experiência única. Janei, nosso talentoso chef, cria pratos incríveis com sabores autênticos da Itália. No salão, Renato, Gislene e Poliana garantem um atendimento acolhedor e personalizado. Nos bastidores, Jão cuida da logística, enquanto Michael administra com precisão para que tudo funcione perfeitamente. Juntos, nosso time trabalha com paixão para oferecer o melhor da culinária e hospitalidade italiana. </p></div>
+                            
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <button type="submit">Cadastrar</button>
+                                </td>
+                            </tr>
+                            </table>
+                        </form>
                         
-                        <img src="/image/equipe.jpg" alt="Imagem da frente do restaurante">
+                
                     </div>
                 </section>
+                
+            </section>
         </section>
+        
     </main>
-    </div>
+</div>
 
     <footer>
         <div id="rodape1"> 
@@ -145,4 +155,3 @@
     </footer>
 </body>
 </html>
-
