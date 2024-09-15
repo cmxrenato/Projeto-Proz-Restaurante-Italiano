@@ -301,15 +301,18 @@ header img{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 100px;
+    
     
 }
 
 
 .btn-white {
     background-color: #fff;
-    width: 179px;
-    height: 32px;
+    width: 279px;
+    height: 80px;
+    
+    font-size: 32px;
     border-radius: 10px; /* Define bordas arredondadas */
     padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
     border: none; /* Remove borda padrão */
@@ -331,8 +334,9 @@ header img{
 .btn-red {
     background-color: #8B1A1A;
     color: white;
-    width: 179px;
-    height: 32px;
+    width: 279px;
+    height: 80px;
+    font-size: 32px;
     margin-left: 10px;
     color: #fff;
     border-radius: 10px; /* Define bordas arredondadas */
@@ -366,7 +370,9 @@ header img{
 }
 .cta-buttons {
     margin: 20px;
+
 }
+
 .chef-section{
     margin-right: 70px;
 }
