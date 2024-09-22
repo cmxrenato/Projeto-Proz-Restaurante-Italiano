@@ -3,17 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Tutti Nostri - Cadastro</title>
-    <link rel="stylesheet" href="/css/cadastro.css">
+    <title>Tutti Nostri - Cartões Presente</title>
+    <link rel="stylesheet" href="/css/cartoes-presente.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-    
-    
-
-</head>
 
 </head>
 <body>
@@ -22,79 +17,63 @@
         <nav>
             <ul>
                 <a href="../index.html" ><li>Home</li></a>
-                    <a href="cardapio.html" ><li>Cardápio</li></a>
-                    <a href="sobre-nos.html" ><li>Sobre Nós</li></a>
-                    <a href=""><li>Eventos</li></a>
-                    <a href="contato.html"><li>Contato</li></a>
-                    <a href="reserva.html" ><li>Reservas</li></a>
-                    <a href="cartoes-presente.html"><li>Presentes</li></a>
+                <a href="cardapio.html"><li>Cardápio</li></a>
+                <a href="sobre-nos.html"><li>Sobre Nós</li></a>
+                <a href=""><li>Eventos</li></a>
+                <a href="contato.html"><li>Contato</li></a>
+                <a href="reserva.html" ><li>Reservas</li></a>
+                <a href="cartoes-presente.html" class="active"><li>Presentes</li></a>
             </ul>
-           
+            
         </nav>
         <div id="botoes">
             <button onclick="window.location.href='login.html'">Entrar</button>
-            <button id= "registrar" >Registrar</button>
+            <button id= "registrar" onclick="window.location.href='cadastro.html'">Registrar</button>
         </div>
     </header>
 
-    
-        <section id="img-fundo"><p>Cadastro</p></section>
-        <div class="layout-conteudo">
-        <main>
-        <section class="main1">
-            <section class="conteudo-main">
-                <section>
-                    <div>
-                        <p class="sub1">NOSSA HISTÓRIA</p>
-                        <p class="sub2">Tutti Nostri <br>Ristorante</p>
-                    </div>
-                    <div class="div-form">
-                        <p class="sub1">FAÇA O SEU CADASTRO</p>
-                        <form action="">
-                            <table>
-                            <tr>
-                                <td align="right">Nome Completo:</td>
-                                <td><input type="text" name="nome" required></td>
-                            </tr>
-                            <tr>
-                                <td align="right">Número de Telefone:</td>
-                                <td><input type="tel" name="telefone" required placeholder="Exemplo: (99)99999-999"></td>
-                            </tr>
-                            <tr>
-                                <td align="right">Endereço:</td>
-                                <td><input type="text" name="endereco" required></td>
-                            </tr>
-                            <tr>
-                                <td align="right">Email:</td>
-                                <td><input type="email" name="email" required placeholder="exemplo@email.com"></td>
-                            </tr>
-                            <tr>
-                                <td align="right">Senha:</td>
-                                <td><input type="password" name="senha" required placeholder="A senha deve ter entre 6 e 8 caracteres"></td>
-                            </tr>
-                            <tr>
-                                <td align="right">Confirme sua senha:</td>
-                                <td><input type="password" name="senha-confirm" required placeholder="Repita a sua senha"></td>
-                            </tr>
-                            
-                            
-                            <tr>
-                                <td colspan="2" align="center">
-                                    <button type="submit">Cadastrar</button>
-                                </td>
-                            </tr>
-                            </table>
-                        </form>
-                        
-                
-                    </div>
-                </section>
-                
-            </section>
+    <section id="img-fundo"><p>Cartões Presente</p></section>
+
+    <main class="container-cartoes">
+        <section class="cartoes">
+            <div class="cartao">
+                <img src="../image/valorflexivel.png" alt="Cartão Presente 1" class="cartao-imagem">
+                <h3>Valor flexível</h3>
+                <p>Presenteie com liberdade de escolha. Válido para qualquer refeição</p>
+                <a href="#" class="explorar">Explorar &rarr;</a>
+            </div>
+            <div class="cartao">
+                <img src="../image/menudegustacao.png" alt="Cartão Presente 2" class="cartao-imagem">
+                <h3>Menu Degustação</h3>
+                <p>Proporcione uma experiência gastrônomica com o nosso menu degustação</p>
+                <a href="#" class="explorar">Explorar &rarr;</a>
+            </div>
+            <div class="cartao">
+                <img src="../image/jantarromantico.png" alt="Cartão Presente 3" class="cartao-imagem">
+                <h3>Jantar Romântico</h3>
+                <p>Celebre o amor com um jantar completo para duas pessoas, numa noite repleta de sabores</p>
+                <a href="#" class="explorar">Explorar &rarr;</a>
+            </div>
+            <div class="cartao">
+                <img src="../image/experiencia.png" alt="Cartão Presente 4" class="cartao-imagem">
+                <h3>Experiência Gourmet</h3>
+                <p>Ofereça uma refeição gourmet de três ou quatro pratos harmonizados</p>
+                <a href="#" class="explorar">Explorar &rarr;</a>
+            </div>
+            <div class="cartao">
+                <img src="../image/brunch.png" alt="Cartão Presente 5" class="cartao-imagem">
+                <h3>Brunch Especial</h3>
+                <p>Presenteie com um brunch delicioso para duas pessoas, tornando o dia mais especial e agradável.</p>
+                <a href="#" class="explorar">Explorar &rarr;</a>
+            </div>
+            <div class="cartao">
+                <img src="../image/aniversario.png" alt="Cartão Presente 6" class="cartao-imagem">
+                <h3>Aniversário</h3>
+                <p>Surpreenda alguém especial no aniversário com uma refeição inesquecível</p>
+                <a href="#" class="explorar">Explorar &rarr;</a>
+            </div>
         </section>
-        
     </main>
-</div>
 
     <footer>
         <div id="rodape1"> 
