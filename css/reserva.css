@@ -141,6 +141,21 @@ main{
     color: #064635;
     margin-top: 50px;
 }
+.sub3{
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #064635;
+    margin-top: 50px;
+}
+
+.sub4{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #8B1A1A;
+    letter-spacing: 5px;
+}
 
 .div-form{
     width: 1397px;
