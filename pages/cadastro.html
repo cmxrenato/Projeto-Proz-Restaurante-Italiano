@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Tutti Nostri - Reserva</title>
-    <link rel="stylesheet" href="/css/reserva.css">
+    <title>Tutti Nostri - Cadastro</title>
+    <link rel="stylesheet" href="/css/cadastro.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -26,19 +26,19 @@
                     <a href="sobre-nos.html" ><li>Sobre Nós</li></a>
                     <a href=""><li>Eventos</li></a>
                     <a href="contato.html"><li>Contato</li></a>
-                    <a href="reserva.html" class="active"><li>Reservas</li></a>
+                    <a href="reserva.html" ><li>Reservas</li></a>
                     <a href="cartoes-presente.html"><li>Presentes</li></a>
             </ul>
            
         </nav>
         <div id="botoes">
             <button onclick="window.location.href='login.html'">Entrar</button>
-            <button id= "registrar" onclick="window.location.href='cadastro.html'">Registrar</button>
+            <button id= "registrar" >Registrar</button>
         </div>
     </header>
 
     
-        <section id="img-fundo"><p>Reservas</p></section>
+        <section id="img-fundo"><p>Cadastro</p></section>
         <div class="layout-conteudo">
         <main>
         <section class="main1">
@@ -49,7 +49,7 @@
                         <p class="sub2">Tutti Nostri <br>Ristorante</p>
                     </div>
                     <div class="div-form">
-                        <p class="sub1">FAÇA A SUA RESERVA</p>
+                        <p class="sub1">FAÇA O SEU CADASTRO</p>
                         <form action="">
                             <table>
                             <tr>
@@ -58,35 +58,29 @@
                             </tr>
                             <tr>
                                 <td align="right">Número de Telefone:</td>
-                                <td><input type="tel" name="telefone" required></td>
+                                <td><input type="tel" name="telefone" required placeholder="Exemplo: (99)99999-999"></td>
                             </tr>
                             <tr>
-                                <td align="right">Data da Reserva:</td>
-                                <td><input type="date" name="data" required></td>
+                                <td align="right">Endereço:</td>
+                                <td><input type="text" name="endereco" required></td>
                             </tr>
                             <tr>
-                                <td align="right">Horário da Reserva:</td>
-                                <td><input type="time" name="horario" required></td>
+                                <td align="right">Email:</td>
+                                <td><input type="email" name="email" required placeholder="exemplo@email.com"></td>
                             </tr>
                             <tr>
-                                <td align="right">Número de Pessoas:</td>
-                                <td>
-                                    <select name="pessoas">
-                                        <option value="1">1 Pessoa</option>
-                                        <option value="2">2 Pessoas</option>
-                                        <option value="3">3 Pessoas</option>
-                                        <option value="4">4 Pessoas</option>
-                                        <option value="5">5 Pessoas</option>
-                                    </select>
-                                </td>
+                                <td align="right">Senha:</td>
+                                <td><input type="password" name="senha" required placeholder="A senha deve ter entre 6 e 8 caracteres"></td>
                             </tr>
                             <tr>
-                                <td align="right">Observações Especiais:</td>
-                                <td><textarea name="observacoes"></textarea></td>
+                                <td align="right">Confirme sua senha:</td>
+                                <td><input type="password" name="senha-confirm" required placeholder="Repita a sua senha"></td>
                             </tr>
+                            
+                            
                             <tr>
                                 <td colspan="2" align="center">
-                                    <button type="submit">Reservar</button>
+                                    <button type="submit">Cadastrar</button>
                                 </td>
                             </tr>
                             </table>
@@ -161,4 +155,3 @@
     </footer>
 </body>
 </html>
-
