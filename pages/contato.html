@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutti Nostri - Reserva</title>
+    <title>Tutti Nostri - Contato</title>
     <link rel="stylesheet" href="/css/reserva.css">
+    <link rel="stylesheet" href="/css/contato.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -29,10 +30,10 @@
                 <a href="">
                     <li>Eventos</li>
                 </a>
-                <a href="contato.html">
+                <a href="contato.html"  class="active">
                     <li>Contato</li>
                 </a>
-                <a href="reserva.html" class="active">
+                <a href="reserva.html">
                     <li>Reservas</li>
                 </a>
                 <a href="gift-card.html">
@@ -69,10 +70,13 @@
                                     <label for="telefone">Telefone:</label>
                                     <input type="tel" id="telefone" name="telefone" required>
                                 </div>                             
-                              
+                                <div class="form-group">
+                                    <label for="email">e-mail:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>  
                               
                                 <div class="form-group">
-                                    <label for="observacoes">Observações Especiais:</label>
+                                    <label for="observacoes">Mensagem:</label>
                                     <textarea id="observacoes" name="observacoes"></textarea>
                                 </div>
                                 <div class="form-group">
@@ -80,7 +84,8 @@
                                 </div>
                             </form>
 
-                            <!-- Adicionando ícones das redes sociais abaixo do formulário -->
+                            <!-- removido ícones das redes sociais abaixo do formulário pois já estão no rodapé do site -->
+
                             <!--<div class="social-icons">
                                 <p>Conecte-se conosco:</p>
                                 <a href="https://facebook.com" target="_blank">
@@ -109,12 +114,16 @@
                 <section class="conteudo-main">
                     <section class="a">
                         <div>
-                            <p class="sub1">Nossa História e Serviços</p>
-                            <p class="sub2">Nossa jornada <br>culinária e serviços</p>
-                            <p id="paragrafo">Enraizados na paixão, nós criamos experiências<br> gastronômicas inesquecíveis e oferecemos serviços<br> excepcionais, combinando arte culinária com<br> hospitalidade calorosa.</p>
+                            <p class="sub1">Conheça o Tutti Nostri Ristorante</p>
+                            <p class="sub2">Venha Nos Fazer<br> Uma Visita</p>
+                            <p id="paragrafo">Desfrute de pratos tradicionais como Ravioli, Spaghetti, Lasagna <br>
+                                Risotto, Bucatini all’amatriciana, Arancino e muitos outros. Clique para conhecer:</p>
                         </div>
-                        <button onclick="window.location.href='https://www.exemplo.com'" >Explorar</button>
+                        <div class="form-group">
+                        <button onclick="window.location.href='cardapio.html'">Cardápio</button>
+                    </div>
                         <div class="div-form">
+                            <br>
                             <!-- Seção de Localização -->
                             <p class="sub1">Localização</p>                            
                             
@@ -213,56 +222,7 @@
             </section>
         </div>
     </footer>
-
-    <style>
-        /* Exemplo básico de estilo para o formulário */
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
-            width: 100%;
-            padding: 8px;
-            box-sizing: border-box;
-        }
-
-        .form-group button {
-            padding: 10px 20px;
-            background-color: #000;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-        }
-
-        .form-group button:hover {
-            background-color: #444;
-        }
-
-        /* Estilos para redes sociais no rodapé */
-        .redes ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            gap: 15px;
-        }
-
-        .redes ul li {
-            display: inline-block;
-        }
-
-        .redes ul li img {
-            width: 30px;
-            height: 30px;
-        }
-    </style>
+    
 </body>
 
 </html>
