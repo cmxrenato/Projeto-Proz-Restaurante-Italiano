@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutti Nostri - Contato</title>
+    <link rel="stylesheet" href="/css/reserva.css">
+    <link rel="stylesheet" href="/css/contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img src="/image/logo-principal-header.png" alt="Logo Principal"></a>
+        <nav>
+            <ul>
+                <a href="../index.html">
+                    <li>Home</li>
+                </a>
+                <a href="cardapio.html">
+                    <li>Cardápio</li>
+                </a>
+                <a href="sobre-nos.html">
+                    <li>Sobre Nós</li>
+                </a>
+                <a href="">
+                    <li>Eventos</li>
+                </a>
+                <a href="contato.html"  class="active">
+                    <li>Contato</li>
+                </a>
+                <a href="reserva.html">
+                    <li>Reservas</li>
+                </a>
+                <a href="gift-card.html">
+                    <li>Cartões presente</li>
+                </a>
+            </ul>
+        </nav>
+        <div id="botoes">
+            <button onclick="window.location.href='login.html'">Entrar</button>
+            <button id="registrar" onclick="window.location.href='cadastro.html'">Registrar</button>
+        </div>
+    </header>
+
+    <section id="img-fundo">
+        <p>Formulário de Contato</p>
+    </section>
+    <div class="layout-conteudo">
+        <main>
+            <section class="main1">
+                <section class="conteudo-main">
+                    <section>
+                        <div>
+                            <p class="sub1">CONTATO</p>
+                            <p class="sub2">Tutti Nostri <br>Ristorante</p>
+                        </div>
+                        <div class="div-form">
+                            <p class="sub1">ENVIE SUA MENSAGEM</p>
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="nome">Nome:</label>
+                                    <input type="text" id="nome" name="nome" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefone">Telefone:</label>
+                                    <input type="tel" id="telefone" name="telefone" required>
+                                </div>                             
+                                <div class="form-group">
+                                    <label for="email">e-mail:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>  
+                              
+                                <div class="form-group">
+                                    <label for="observacoes">Mensagem:</label>
+                                    <textarea id="observacoes" name="observacoes"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit">Enviar Mensagem</button>
+                                </div>
+                            </form>
+
+                            <!-- removido ícones das redes sociais abaixo do formulário pois já estão no rodapé do site -->
+
+                            <!--<div class="social-icons">
+                                <p>Conecte-se conosco:</p>
+                                <a href="https://facebook.com" target="_blank">
+                                    <img src="/image/logo-face.png" alt="Facebook" width="30" height="30">
+                                </a>
+                                <a href="https://instagram.com" target="_blank">
+                                    <img src="/image/logo-insta.png" alt="Instagram" width="30" height="30">
+                                </a>
+                                <a href="https://x.com" target="_blank">
+                                    <img src="/image/logo-x.png" alt="X" width="30" height="30">
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <img src="/image/logo-youtube.png" alt="YouTube" width="30" height="30">
+                                </a>
+                            </div>-->
+                           
+                        </div>
+                     
+                            
+                    </section>
+
+                    
+                </section>
+            </section>
+            <section class="main1">
+                <section class="conteudo-main">
+                    <section class="a">
+                        <div>
+                            <p class="sub1">Conheça o Tutti Nostri Ristorante</p>
+                            <p class="sub2">Venha Nos Fazer<br> Uma Visita</p>
+                            <p id="paragrafo">Desfrute de pratos tradicionais como Ravioli, Spaghetti, Lasagna <br>
+                                Risotto, Bucatini all’amatriciana, Arancino e muitos outros. Clique para conhecer:</p>
+                        </div>
+                        <div class="form-group">
+                        <button onclick="window.location.href='cardapio.html'">Cardápio</button>
+                    </div>
+                        <div class="div-form">
+                            <br>
+                            <!-- Seção de Localização -->
+                            <p class="sub1">Localização</p>                            
+                            
+                             <div class="mapa">
+                                 <p class="sub3">Nosso restaurante está localizado no coração da cidade:</p>
+                                 <p class="sub4">Rua Exemplo, 123 - Centro, Cidade Fictícia - País</p>
+                                 <br>
+                                 <!-- Mapa fictício (imagem do Google Maps ou um placeholder) -->
+                                 <iframe
+                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.217132118599!2d-46.65598108443865!3d-23.597762684666683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bf58b17f3b%3A0x1ff7f781d0f2d7f9!2sRua%20Fict%C3%ADcia%2C%20234%20-%20Bairro%20Exemplo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001234-567!5e0!3m2!1spt-BR!2sbr!4v1692610123456!5m2!1spt-BR!2sbr"
+                                 width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                             </div>
+                         
+                                                   
+                        </div>
+                    </section>                  
+
+                    
+                </section>
+                 
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div id="rodape1">
+            <section class="logo-rodape">
+                <img src="/image/bannerRestauranteMini 2@2x.png" alt="logo_footer">
+                <p>Fundado em 1911, nosso restaurante nasceu da paixão pela culinária. </p>
+            </section>
+            <section class="listas-rodape">
+                <ul>
+                    <span>Links Úteis</span>
+                    <a href="">
+                        <li>Sobre Nós</li>
+                    </a>
+                    <a href="">
+                        <li>Eventos</li>
+                    </a>
+                    <a href="">
+                        <li>Blog</li>
+                    </a>
+                    <a href="">
+                        <li>FAQ</li>
+                    </a>
+                </ul>
+                <ul>
+                    <span>Menu Principal</span>
+                    <a href="">
+                        <li>Home</li>
+                    </a>
+                    <a href="">
+                        <li>Reservas</li>
+                    </a>
+                    <a href="">
+                        <li>Pratos</li>
+                    </a>
+                    <a href="">
+                        <li>Cartões Presente</li>
+                    </a>
+                </ul>
+                <ul>
+                    <span>Contatos</span>
+                    <a href="">
+                        <li>exampla@email.com</li>
+                    </a>
+                    <a href="">
+                        <li>+95 958 248 966</li>
+                    </a>
+                    <a href="">
+                        <li>Social Media</li>
+                    </a>
+                </ul>
+            </section>
+        </div>
+
+        <div id="rodape2">
+            <section class="redes">
+                <ul>
+                    <a href="">
+                        <li><img src="/image/logo-face.png" alt="Logo do Facebook"></li>
+                    </a>
+                    <a href="">
+                        <li><img src="/image/logo-insta.png" alt="Logo do Instagram"></li>
+                    </a>
+                    <a href="">
+                        <li><img src="/image/logo-x.png" alt="Logo do X"></li>
+                    </a>
+                    <a href="">
+                        <li><img src="/image/logo-youtube.png" alt="Logo do Youtube"></li>
+                    </a>
+                </ul>
+            </section>
+            <section class="copyright">
+                <p>Copyright &#169; 2024 Grupo 4 T31 | All rights reserved</p>
+            </section>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

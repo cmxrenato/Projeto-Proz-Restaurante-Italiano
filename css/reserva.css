@@ -142,6 +142,7 @@ main{
     margin-top: 50px;
 }
 
+
 .div-form{
     width: 1397px;
     height: 820px;
@@ -152,6 +153,7 @@ main{
     justify-content: center;
     margin-top: 100px;
     font-size: 26px;
+    padding-bottom: 40px;
 }
 .card img{
     width: 500px;
