@@ -1,325 +1,232 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tutti Nostri - Home</title>
 
-    <title>Tutti Nostri - Home</title>
-    <link rel="stylesheet" href="/css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    
+<!-- CSS files -->
+<link href="css/global.css" rel="stylesheet" type="text/css">
+<link href="css/index.css" rel="stylesheet" type="text/css">
 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-</head>
 <body>
-    
-
-    
-       
-        <header>
-        
-            <nav>
-                <ul>
-                    <a href="" class="active"><li>Home</li></a>
-                    <a href="pages/cardapio.html" ><li>Cardápio</li></a>
-                    <a href="pages/sobre-nos.html" ><li>Sobre Nós</li></a>
-                    <a href="pages/eventos.html"><li>Eventos</li></a>
-                    <a href="pages/contato.html"><li>Contato</li></a>
-                    <a href="pages/reserva.html"><li>Reservas</li></a>
-                    <a href="pages/cartoes-presente.html"><li>Presentes</li></a>
-                </ul>
-               
-            </nav>
-            
-        </header>
-
-
-
-        <div id="imagem-fundo">
-            <div class="hero-section">
-            <img src="image/index/logo_big.png" alt="Logo do Tutti Nostri Ristorante">
-            <div class="cta-buttons">
-                <button class="btn-white" onclick="window.location.href='pages/login.html'">Entrar</button>
-                <button class="btn-red"  onclick="window.location.href='pages/cadastro.html'">Registrar</button>
-            </div>
-            </div>
+<header>
+  <nav>
+    <ul>
+      <li><a href="" class="active">Home</a></li>
+      <li><a href="cardapio.html">Cardápio</a></li>
+      <li><a href="sobre-nos.html">Sobre Nós</a></li>
+      <li><a href="eventos.html">Eventos</a></li>
+      <li><a href="contato.html">Contato</a></li>
+      <li><a href="reservas.html">Reservas</a></li>
+      <li><a href="cartoes-presente.html">Presentes</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div id="imagem-fundo">
+    <div class="hero-section"> <img src="image/index/logo_big.png" alt="Logo do Tutti Nostri Ristorante">
+      <div class="cta-buttons">
+        <button class="btn-white" onclick="window.location.href='pages/login.html'">Entrar</button>
+        <button class="btn-red"  onclick="window.location.href='pages/cadastro.html'">Registrar</button>
+      </div>
+    </div>
+  </div>
+  <section class="categories">
+    <p id="fonte_vermelha2">OS FAVORITOS DOS CLIENTES</p>
+    <h2>Categorias Mais Populares</h2>
+    <div class="category-cards">
+      <div class="card"> <img src= "image/index/Arancino.png" alt="Entradas">
+        <h3>Entradas</h3>
+      </div>
+      <div class="card"> <img src= "image/index/risoto.png" alt="Pratos tipicos">
+        <h3>Pratos tipicos</h3>
+      </div>
+      <div class="card"> <img src= "image/index/PannaCotta.jpg" alt="Sobremesa">
+        <h3>Sobremesas</h3>
+      </div>
+      <div class="card"> <img src= "image/index/vinho.jpg" alt="Vinho">
+        <h3>Vinhos</h3>
+      </div>
+    </div>
+  </section>
+  <section class="chef-suggestions">
+    <div>
+      <div class="sugestoes-chef">
+        <div>
+          <p class="sub1">PRATOS ESPECIAIS</p>
+          <p class="sub2">Sugestões do Chef</p>
         </div>
-    <div class="layout-conteudo">
-        <main>
-        <section class="categories">
-
-            <p id="fonte_vermelha2">OS FAVORITOS DOS CLIENTES</p>
-            <h2>Categorias Mais Populares</h2>
-            <div class="category-cards">
-                <div class="card">
-                <img src= "image/index/Arancino.png" alt="Entradas">
-                <h3>Entradas</h3>
-            
-                </div>
-                <div class="card">
-                <img src= "image/index/risoto.png" alt="Pratos tipicos">
-                <h3>Pratos tipicos</h3>
-                
-                </div>
-                <div class="card">
-                <img src= "image/index/PannaCotta.jpg" alt="Sobremesa">
-                    <h3>Sobremesas</h3>
-                    
+        <div>
+          <button id="b-esquerdo"><img src="image/b-esquerdo.png" alt="seta do botão esquerdo"></button>
+          <button id="b-direito"><img src="image/b-direito.png" alt="seta do botão direito"></button>
+        </div>
+      </div>
+    </div>
+    <div class="pratos-cardapio">
+      <div class="card-prato"> <span class="coracao"><img src="image/coracao-cheio.png"></span>
+        <div class="imagem"> <img src="image/index/Lasanha-a-bolonhesa-com-carne-moida.png" alt="Imagem de Lasanha-a-bolonhesa-com-carne-moida"> </div>
+        <div class = "prato-e-descricao">
+          <p class = "titulo-prato">Prato 1</p>
+          <p class = "subtitulo-prato">Descrição do prato 1</p>
+        </div>
+        <div class="preco-estrela">
+          <p><span>R$</span> 30,00</p>
+          <div>
+            <p class="nota">⭐&nbsp;4.9</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-prato"> <span class="coracao"><img src="image/coracao.png"></span>
+        <div class="imagem"> <img src="image/index/Lasanha-a-bolonhesa-com-carne-moida.png" alt="Imagem de Lasanha-a-bolonhesa-com-carne-moida"> </div>
+        <div class = "prato-e-descricao">
+          <p class = "titulo-prato">Prato 1</p>
+          <p class = "subtitulo-prato">Descrição do prato 1</p>
+        </div>
+        <div class="preco-estrela">
+          <p><span>R$</span> 30,00</p>
+          <div>
+            <p class="nota">⭐&nbsp;4.9</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-prato"> <span class="coracao"><img src="image/coracao.png"></span>
+        <div class="imagem"> <img src="image/index/Lasanha-a-bolonhesa-com-carne-moida.png" alt="Imagem de Lasanha-a-bolonhesa-com-carne-moida"> </div>
+        <div class = "prato-e-descricao">
+          <p class = "titulo-prato">Prato 1</p>
+          <p class = "subtitulo-prato">Descrição do prato 1</p>
+        </div>
+        <div class="preco-estrela">
+          <p><span>R$</span> 30,00</p>
+          <div>
+            <p class="nota">⭐&nbsp;4.9</p>
+          </div>
+        </div>
+      </div>
+    </div>
     
+    <!-- <div class="card">
+                <img src= "image/index/Lasanha-a-bolonhesa-com-carne-moida.png" alt="Lasanha">
+                <h3>Lasanha</h3>
+                <p>R$24.00</p>
             </div>
-                <div class="card">
-                    <img src= "image/index/vinho.jpg" alt="Vinho">
-                    <h3>Vinhos</h3>
-                    
-                </div>
+            <div class="card">
+                <img src="image/index/calzone.jpeg" alt="Calzone">
+                <h3>Calzone</h3>
+                <p>R$46.00</p>
             </div>
-        </section>
-
-        <section class="chef-suggestions">
-            <div>
-                
-                <div class="sugestoes-chef">
-                    <div>
-                        <p class="sub1">PRATOS ESPECIAIS</p>
-                        <p class="sub2">Sugestões do Chef</p>
-                    </div>
-                
-                    <div>
-                    <button id="b-esquerdo"><img src="/image/b-esquerdo.png" alt="seta do botão esquerdo"></button>
-                    <button id="b-direito"><img src="/image/b-direito.png" alt="seta do botão direito"></button>
-                    </div>
-                      
-                
-                </div>
-            </div>
-            
-            <div class="pratos-cardapio">
-                <div class="card-prato">
-                    <span id="coracao"><img src="image/coracao-cheio.png"></span>
-                    <div id="imagem">
-                        <img src="image/index/Lasanha-a-bolonhesa-com-carne-moida.png" id="pratos" alt="Imagem de Lasanha-a-bolonhesa-com-carne-moida">
-                    </div>
-                    <div class = "prato-e-descricao">    
-                        <p class = "titulo-prato">Prato 1</p>
-                        <p class = "subtitulo-prato">Descrição do prato 1</p>
-                    </div>
-                    <div id="preco-estrela">
-                        <p><span>R$</span> 30,00</p>
-                        <div>
-                            <p id="nota">⭐&nbsp;4.9</p>
-                        </div>
-                    </div>
-    
-                </div>
-                <div class="card-prato">
-                    <span id="coracao"><img src="image/coracao.png"></span>
-                    <div id="imagem">
-                        <img src="image/index/Lasanha-a-bolonhesa-com-carne-moida.png" id="pratos" alt="Imagem de Lasanha-a-bolonhesa-com-carne-moida">
-                    </div>
-                    <div class = "prato-e-descricao">    
-                        <p class = "titulo-prato">Prato 1</p>
-                        <p class = "subtitulo-prato">Descrição do prato 1</p>
-                    </div>
-                    <div id="preco-estrela">
-                        <p><span>R$</span> 30,00</p>
-                        <div>
-                            <p id="nota">⭐&nbsp;4.9</p>
-                        </div>
-                    </div>
-    
-                </div>
-                <div class="card-prato">
-                    <span id="coracao"><img src="image/coracao.png"></span>
-                    <div id="imagem">
-                        <img src="image/index/Lasanha-a-bolonhesa-com-carne-moida.png" id="pratos" alt="Imagem de Lasanha-a-bolonhesa-com-carne-moida">
-                    </div>
-                    <div class = "prato-e-descricao">    
-                        <p class = "titulo-prato">Prato 1</p>
-                        <p class = "subtitulo-prato">Descrição do prato 1</p>
-                    </div>
-                    <div id="preco-estrela">
-                        <p><span>R$</span> 30,00</p>
-                        <div>
-                            <p id="nota">⭐&nbsp;4.9</p>
-                        </div>
-                    </div>
-    
-                </div>
-            </div>
-                
-                <!-- <div class="card">
-                    <img src= "image/index/Lasanha-a-bolonhesa-com-carne-moida.png" alt="Lasanha">
-                    <h3>Lasanha</h3>
-                    <p>R$24.00</p>
-                </div>
-                <div class="card">
-                    <img src="image/index/calzone.jpeg" alt="Calzone">
-                    <h3>Calzone</h3>
-                    <p>R$46.00</p>
-                </div>
-                <div class="card">
-                    <img src="image/index/pizza-italiana-tradicional-com-tomates-e-manjericao-em-alusao-a-historia-da-pizza.png" alt="Pizza">
-                    <h3>Pizza</h3>
-                    <p>$55.00</p>
-                </div> -->
-            </section>
-
-
-
-
-            <div class="container2">
-       
-                <section class="chef-section">
-                    <img src="image/chef.png" alt="Chef principal">
-                </section>
-        
-                <section class="testimonials">
-                    <p id="fonte_vermelha">DEPOIMENTOS</p> 
-                    
-                    <h2>Bem-vindo ao Tutti Nostri Ristorante</h2>
-                    <p>"Cada refeição é uma celebração da autêntica culinária italiana. Sabores ricos e         tradicionais, preparados com ingredientes frescos e um toque de paixão.
-                         Massas artesanais a pratos clássicos que contam histórias, cada mordida promete umaviagem gastronomica pela Itália."</p>
-                    <div id="feed-cliente">
-                        <div>
-                            <img src="image/index/cliente.png" alt="cliente"> 
-                        </div>
-                        
-                        <div>
-                            <p> Feedback do cliente</p>
-                            <div id="nota-review">
-                                <p>⭐&nbsp;4.9</p>
-                                <p>(18.6k Reviews)</p>
-                            </div>
-                            
-                        </div>
-                        
-                    </div>
-                    
-                         
-                </section>
-            
-                   
-                    
-            </div>
-    
-    
-            <div class="container">
-        
-                <section class="benvenuti">
-                    <div>
-                        <p class="sub1">Esperamos por você!</p>
-                        <p class="sub2">Benvenuti ao Tutti Nostri Ristorante!</p>
-                        <p id="paragrafo">No coração da cidade, Tutti Nostri Ristorante traz a autêntica experiência da cozinha italiana para você.</p>
-                    </div>
-                    <div>
-                        <button onclick="window.location.href='https://www.exemplo.com'" >Localização</button>
-                    </div>
-                    
-                </section>
-
-                   
-                    <section class="categories">
-                        <div class="category-cards2">
-                            <div class="card2">
-                                <img src= "/image/salad.png" alt="Saboroso">
-                                <h3>Saboroso</h3>
-                                <p>Encante seus convidados com os nossos
-                                    sabores e apresentacao.</p>
-                        
-                        </div>
-                        <div class="card2">
-                            <img src= "/image/time.png" alt="Entrega rapida">
-                            <h3>Entrega rápida</h3>
-                            <p>Entregamos seu pedido prontamente em sua porta.</p>
-                            
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="categories">
-                        <div class="category-cards2">
-                            <div class="card2">
-                                <img src= "/image/shopping.png" alt="Pedidos onlinne">
-                                <h3>Pedidos online</h3>
-                                <p> Explore o menu e faça o seu pedido com facilidade, usando nosso pedido online.</p>
-                            
-                                </div>
-                                <div class="card2">
-                                <img src= "/image/gift.png" alt="gift-card">
-                                <h3>Gift-card</h3>
-                                <p>Presentear alguém é mostrar o quanto essa pessoa é especial.Use nosso gift-card refeiIfood.</p>
-                                
-                                </div>
-                        </div>
-                    </section>
-                    
-               </div>
-    </main>
-</div>
-
-
-    <footer>
-        <div id="rodape1"> 
-            
-                <section class="logo-rodape">
-                    <img src="/image/bannerRestauranteMini 2@2x.png" alt="logo_footer" class="logo-footer">
-                    <p>Fundado em 1911, nosso restaurante nasceu da paixão pela culinária. </p>
-                </section>
-              
-                <section class="listas-rodape">
-                    <ul>
-                        <span>Links Úteis</span>
-                        <a href=""><li>Sobre Nós</li></a>
-                        <a href=""><li>Eventos</li></a>
-                        <a href=""><li>Blog</li></a>
-                        <a href=""><li>FAQ</li></a>
-                    </ul>
-                    <ul>
-                        <span>Menu Principal</span>
-                        <a href=""><li>Home</li></a>
-                        <a href=""><li>Reservas</li></a>
-                        <a href=""><li>Pratos</li></a>
-                        <a href=""><li>Cartões Presente</li></a>
-                    </ul>
-                    <ul>
-                        <span>Contatos</span>
-                        <a href=""><li>exampla@email.com</li></a>
-                        <a href=""><li>+95 958 248 966</li></a>
-                        <a href=""><li>Social Media</li></a>
-                        <li>&#8203;</li> <!--Item invisível para alinhar a tabela. -->
-                        
-                    </ul>
-                </section>
-            </div>
-
-            <div id="rodape2">
-           
-                <section class="redes">
-                    <ul>
-                        <li><a href="#"><img src="/image/logo-face.svg" alt="Logo do Facebook"></a></li>
-                        <li><a href="#"><img src="/image/logo-insta.svg" alt="Logo do Instagram"></a></li>
-                        <li><a href="#"><img src="/image/logo-x.svg" alt="Logo do X"></a></li>
-                        <li><a href="#"><img src="/image/logo-youtube.svg" alt="Logo do Youtube"></a></li>
-                    </ul> 
-                    
-                </section>
-                <section class="copyright">
-                    <p>Copyright &#169; 2024 Grupo 4 T31 | All rights reserved</p>
-                </section>
-               
-             </div>
-
-         </div>
-        
-       
-       
-        
-    </footer>
-   
+            <div class="card">
+                <img src="image/index/pizza-italiana-tradicional-com-tomates-e-manjericao-em-alusao-a-historia-da-pizza.png" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>$55.00</p>
+            </div> --> 
+  </section>
+  <div class="container2">
+    <section class="chef-section"> <img src="image/chef.png" alt="Chef principal"> </section>
+    <section class="testimonials">
+      <p id="fonte_vermelha">DEPOIMENTOS</p>
+      <h2>Bem-vindo ao Tutti Nostri Ristorante</h2>
+      <p>"Cada refeição é uma celebração da autêntica culinária italiana. Sabores ricos e         tradicionais, preparados com ingredientes frescos e um toque de paixão.
+        Massas artesanais a pratos clássicos que contam histórias, cada mordida promete umaviagem gastronomica pela Itália."</p>
+      <div id="feed-cliente">
+        <div> <img src="image/index/cliente.png" alt="cliente"> </div>
+        <div>
+          <p> Feedback do cliente</p>
+          <div id="nota-review">
+            <p>⭐&nbsp;4.9</p>
+            <p>(18.6k Reviews)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <section class="benvenuti">
+      <div>
+        <p class="sub1">Esperamos por você!</p>
+        <p class="sub2">Benvenuti ao Tutti Nostri Ristorante!</p>
+        <p id="paragrafo">No coração da cidade, Tutti Nostri Ristorante traz a autêntica experiência da cozinha italiana para você.</p>
+      </div>
+      <div>
+        <button onclick="window.location.href='https://www.exemplo.com'" >Localização</button>
+      </div>
+    </section>
+    <section class="categories">
+      <div class="category-cards2">
+        <div class="card2"> <img src= "image/salad.png" alt="Saboroso">
+          <h3>Saboroso</h3>
+          <p>Encante seus convidados com os nossos
+            sabores e apresentacao.</p>
+        </div>
+        <div class="card2"> <img src= "image/time.png" alt="Entrega rapida">
+          <h3>Entrega rápida</h3>
+          <p>Entregamos seu pedido prontamente em sua porta.</p>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <div class="category-cards2">
+        <div class="card2"> <img src= "image/shopping.png" alt="Pedidos onlinne">
+          <h3>Pedidos online</h3>
+          <p> Explore o menu e faça o seu pedido com facilidade, usando nosso pedido online.</p>
+        </div>
+        <div class="card2"> <img src= "image/gift.png" alt="gift-card">
+          <h3>Gift-card</h3>
+          <p>Presentear alguém é mostrar o quanto essa pessoa é especial.Use nosso gift-card refeiIfood.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+<footer>
+  <div class="rodape1">
+    <section class="logo-rodape"> <img src="image/bannerRestauranteMini 2@2x.png" alt="Logo do restaurante" class="logo-footer">
+      <p>Fundado em 1911, nosso restaurante nasceu da paixão pela culinária.</p>
+    </section>
+    <section class="listas-rodape">
+      <ul>
+        <li><strong>Links Úteis</strong></li>
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Eventos</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+      <ul>
+        <li><strong>Menu Principal</strong></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Reservas</a></li>
+        <li><a href="#">Pratos</a></li>
+        <li><a href="#">Cartões Presente</a></li>
+      </ul>
+      <ul>
+        <li><strong>Contatos</strong></li>
+        <li><a href="mailto:exampla@email.com">exampla@email.com</a></li>
+        <li><a href="tel:+95958248966">+95 958 248 966</a></li>
+        <li><a href="#">Social Media</a></li>
+      </ul>
+    </section>
+  </div>
+  <div class="rodape2">
+    <section class="redes">
+      <ul>
+        <li><a href="#"><img src="image/logo-face.svg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="image/logo-insta.svg" alt="Instagram"></a></li>
+        <li><a href="#"><img src="image/logo-x.svg" alt="X (antigo Twitter)"></a></li>
+        <li><a href="#"><img src="image/logo-youtube.svg" alt="YouTube"></a></li>
+      </ul>
+    </section>
+    <section class="copyright">
+      <p>Copyright &#169; 2024 Grupo 4 T31 | Todos os direitos reservados.</p>
+    </section>
+  </div>
+</footer>
 </body>
 </html>
