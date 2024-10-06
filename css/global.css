@@ -100,7 +100,7 @@
   }
   #img-fundo {
     display: flex;
-    background-image: url(../image/fundo-sobre-nos.png);
+    background-image: url(../images/fundo-sobre-nos.png);
     width: 100%;
     height: 430px;
     background-repeat: no-repeat;

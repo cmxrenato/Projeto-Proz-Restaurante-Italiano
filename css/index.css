@@ -132,7 +132,7 @@ header {
   
 }
 #imagem-fundo {
-  background-image: url("../image/fundo-index.png");
+  background-image: url("../images/fundo-index.png");
   background-repeat: no-repeat;
   /* Impede que a imagem se repita */
   background-size: cover;
@@ -142,7 +142,7 @@ header {
   padding-bottom: 50px;
 }
 .banner-header {
-  background-image: url("/image/index/banner_home.png");
+  background-image: url("/images/index/banner_home.png");
 }
 header img {
   margin-left: 50px;
