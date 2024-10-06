@@ -44,23 +44,23 @@
               Ristorante</p>
           </div>
           <div class="div-form">
-            <p class="sub1">FAÇA A SUA RESERVA</p>
-            <form action="" class="form-group">
+            <p class="sub1">FAÇA A SUA RESERVA</p>            
+            <form id="reservaForm" class="form-group">
               <div class="form-field">
-                <label for="nome">Nome Completo:</label>
-                <input type="text" id="nome" name="nome" required>
+                <label for="nomeCompleto">Nome Completo:</label>
+                <input type="text" id="nomeCompleto" name="nomeCompleto" required>
               </div>
               <div class="form-field">
                 <label for="telefone">Número de Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" required>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
               </div>
               <div class="form-field">
-                <label for="data">Data da Reserva:</label>
-                <input type="date" id="data" name="data" required>
+                <label for="dataReserva">Data da Reserva:</label>
+                <input type="date" id="dataReserva" name="dataReserva" required>
               </div>
               <div class="form-field">
-                <label for="horario">Horário da Reserva:</label>
-                <input type="time" id="horario" name="horario" required>
+                <label for="horaReserva">Horário da Reserva:</label>
+                <input type="time" id="horaReserva" name="horaReserva" required>
               </div>
               <div class="form-field">
                 <label for="pessoas">Número de Pessoas:</label>
@@ -80,6 +80,7 @@
                 <button type="submit">Reservar</button>
               </div>
             </form>
+            <!-- fim do form -->
           </div>
         </section>
       </section>
@@ -128,5 +129,6 @@
     </section>
   </div>
 </footer>
+<script src="js/reserva.js"></script>
 </body>
 </html>
