@@ -105,4 +105,8 @@ for (let i = 0; i < cardapio.length; i++) {
     section.appendChild(div);
 }
 
+function redirecionarParaReserva() {
+    window.location.href = 'reserva.html';
+}
+
 
