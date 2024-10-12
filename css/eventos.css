@@ -1,18 +1,10 @@
 /* =================== MAIN ================== */
   
-.evento-subtitle {
-  display: flex;
-  text-align: left; 
+.titulo-section1{
   width: 100%; 
   margin-top: 80px;
   margin-bottom: 20px;
   padding-left: 80px;
-  font-family: 'Inter', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color: #8B1A1A;
-  letter-spacing: 5px;
-
 }
 
 .bloco-eventos {
@@ -46,21 +38,25 @@
   font-family: 'Cinzel', serif;
   font-weight: bold;
   font-size: 46px;
-  color: #064635;
+  color: #8B1A1A;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 
 .titulo-evento {
   font-size: 20px;
-  color: #064635;
+  color: #000000;
   margin: 16px 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 
 .descricao-evento {
   font-size: 16px;
-  color: #666;
+  color: #555555;
   line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
 
 .linha-decorativa {
