@@ -104,7 +104,7 @@ function togglePassword(btn, inputId) {
         btn.innerText = "🚫"; // Altera o ícone para mostrar que a senha está visível
     } else {
         input.type = "password";
-        btn.innerText = "🔍"; // Altera o ícone para mostrar que a senha está oculta
+        btn.innerText = "👁️‍🗨️"; // Altera o ícone para mostrar que a senha está oculta
     }
 }
 
