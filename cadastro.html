@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<script src="js/cadastro.js" defer></script>
 </head>
 
 <body>
@@ -45,31 +46,33 @@
           </div>
           <div class="div-form">
             <p class="sub1">FAÇA O SEU CADASTRO</p>
-            <form action="">
+            <form action="" id="cadastro-form">
               <div class="form-group">
                 <label for="nome">Nome Completo:</label>
                 <input type="text" id="nome" name="nome" required>
+                <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
               </div>
-              <div class="form-group">
-                <label for="telefone">Número de Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" required placeholder="Exemplo: (99)99999-9999">
-              </div>
-              <div class="form-group">
-                <label for="endereco">Endereço:</label>
-                <input type="text" id="endereco" name="endereco" required>
-              </div>
+                      
               <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+                <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
               </div>
               <div class="form-group">
                 <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required placeholder="A senha deve ter entre 6 e 8 caracteres">
+      <input type="password" id="senha" name="senha" required/>
+      <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
+      <span class="toggle-password-btn" onclick="togglePassword(this, 'senha')"
+        >🔍</span>
               </div>
               <div class="form-group">
-                <label for="senha-confirm">Confirme sua senha:</label>
-                <input type="password" id="senha-confirm" name="senha-confirm" required placeholder="Repita a sua senha">
-              </div>
+                <label for="confirma-senha">Confirmar senha:</label>
+                <input type="password" id="confirma-senha" name="confirma-senha" required />
+                <p id="confirma-senha-helper" class="helper-text">Mensagem de ajuda</p>
+                <span
+                  class="toggle-password-btn"
+                  onclick="togglePassword(this, 'confirma-senha')"
+                  >🔍</span>
               <div class="form-group">
                 <button type="submit">Cadastrar</button>
               </div>
