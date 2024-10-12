@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<script src="js/login.js" defer></script>
 </head>
 
 <body>
@@ -48,11 +49,15 @@
             <form action="">
               <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required placeholder="exemplo@email.com">
+                <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+                <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
               </div>
               <div class="form-group">
                 <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
+                <input type="password" id="senha" name="senha" required/>
+                <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
+                <span class="toggle-password-btn" onclick="togglePassword(this, 'senha')"
+                  >👁️‍🗨️</span>
               </div>
               <div class="form-group">
                 <button type="submit">Entrar</button>
