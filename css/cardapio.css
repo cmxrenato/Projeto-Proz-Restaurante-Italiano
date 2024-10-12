@@ -4,6 +4,7 @@
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
   }
+
   
   .card-prato {
     width: 400px;
