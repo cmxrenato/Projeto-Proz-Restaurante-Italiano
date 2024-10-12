@@ -24,12 +24,12 @@
   .card-prato:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
-  .coracao {
+  #coracao {
     text-align: end;
     width: 400px;
   }
   
-  .preco-estrela {
+  #preco-estrela {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,7 +37,7 @@
     margin-bottom: 20px;
   }
   
-  .nota,
+  
   #nota {
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -45,14 +45,14 @@
     color: #454545;
   }
   
-  .preco-estrela span {
+  #preco-estrela span {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #ff6868;
   }
   
-  .preco-estrela p {
+  #preco-estrela p {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 30px;
