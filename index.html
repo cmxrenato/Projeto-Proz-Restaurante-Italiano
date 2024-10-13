@@ -35,8 +35,8 @@
   <div id="imagem-fundo">
     <div class="hero-section"> <img src="images/index/logo_big.png" alt="Logo do Tutti Nostri Ristorante">
       <div class="cta-buttons">
-        <button class="btn-white" onclick="window.location.href='pages/login.html'">Entrar</button>
-        <button class="btn-red"  onclick="window.location.href='pages/cadastro.html'">Registrar</button>
+        <button class="btn-white" onclick="window.location.href='login.html'">Entrar</button>
+        <button class="btn-red"  onclick="window.location.href='cadastro.html'">Registrar</button>
       </div>
     </div>
   </div>
@@ -44,16 +44,16 @@
     <p id="fonte_vermelha2">OS FAVORITOS DOS CLIENTES</p>
     <h2>Categorias Mais Populares</h2>
     <div class="category-cards">
-      <div class="card"> <img src= "images/index/Arancino.png" alt="Entradas">
+      <div class="card"> <img src= "images/index/Arancino.png" alt="Entradas" onclick="window.location.href='cardapio.html'">
         <h3>Entradas</h3>
       </div>
-      <div class="card"> <img src= "images/index/risoto.png" alt="Pratos tipicos">
+      <div class="card"> <img src= "images/index/risoto.png" alt="Pratos tipicos" onclick="window.location.href='cardapio.html'">
         <h3>Pratos tipicos</h3>
       </div>
-      <div class="card"> <img src= "images/index/PannaCotta.jpg" alt="Sobremesa">
+      <div class="card"> <img src= "images/index/PannaCotta.jpg" alt="Sobremesa" onclick="window.location.href='cardapio.html'">
         <h3>Sobremesas</h3>
       </div>
-      <div class="card"> <img src= "images/index/vinho.jpg" alt="Vinho">
+      <div class="card"> <img src= "images/index/vinho.jpg" alt="Vinho" onclick="window.location.href='cardapio.html'">
         <h3>Vinhos</h3>
       </div>
     </div>
@@ -71,7 +71,7 @@
         </div>
       </div>
     </div>
-    <div class="pratos-cardapio">
+    <div class="pratos-cardapio" id="carousel">
       <div class="card-prato"> <span class="coracao"><img src="images/coracao-cheio.png" alt="carne moída"></span>
         <div class="imagem"> <img src="images/index/Lasanha-a-bolonhesa-com-carne-moida.png" alt="Imagem de Lasanha-a-bolonhesa-com-carne-moida"> </div>
         <div class = "prato-e-descricao">
@@ -112,22 +112,7 @@
         </div>
       </div>
     </div>
-    
-    <!-- <div class="card">
-                <img src= "image/index/Lasanha-a-bolonhesa-com-carne-moida.png" alt="Lasanha">
-                <h3>Lasanha</h3>
-                <p>R$24.00</p>
-            </div>
-            <div class="card">
-                <img src="image/index/calzone.jpeg" alt="Calzone">
-                <h3>Calzone</h3>
-                <p>R$46.00</p>
-            </div>
-            <div class="card">
-                <img src="image/index/pizza-italiana-tradicional-com-tomates-e-manjericao-em-alusao-a-historia-da-pizza.png" alt="Pizza">
-                <h3>Pizza</h3>
-                <p>$55.00</p>
-            </div> --> 
+  
   </section>
   <div class="container2">
     <section class="chef-section"> <img src="images/chef.png" alt="Chef principal"> </section>
@@ -228,5 +213,6 @@
     </section>
   </div>
 </footer>
+
 </body>
 </html>

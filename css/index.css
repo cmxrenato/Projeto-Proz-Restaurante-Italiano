@@ -484,3 +484,39 @@ header img {
   display: flex;
   justify-content: flex-start;
 }
+
+
+.pratos-cardapio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.pratos-cardapio {
+  display: flex;
+  gap: 30px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  width: 80%; /* Define a largura do carrossel */
+}
+
+#b-esquerdo, #b-direito {
+  background-color: #8b1a1a;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+#b-esquerdo:hover {
+  background-color: #898989;
+}
+
+#b-direito:hover {
+  background-color: rgb(244, 125, 125);
+}
+
+
