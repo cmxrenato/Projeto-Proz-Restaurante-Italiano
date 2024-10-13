@@ -351,31 +351,44 @@ header img {
 }
 .card-prato {
   width: 400px;
-  height: 477px;
+  height: 523px;
   background-color: white;
   margin-bottom: 100px;
   margin-top: 150px;
+  margin-right: 20px;	
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between !important;
   align-items: center;
   border-radius: 55px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Adiciona a sombra */
   transition: box-shadow 0.3s ease;
-  /* Transição suave ao passar o mouse */
 }
+.imagem img,
+#pratos {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.pratos-selec-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .card-prato:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  /* Sombra mais intensa ao passar o mouse */
 }
+
+
 .pratos-cardapio {
+  width: 1697px;
   display: flex;
-  justify-content: center;
-  margin-left: 50px;
-  gap: 56px;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
 }
-.coracao {
+#coracao {
   text-align: end;
   width: 400px;
 }
