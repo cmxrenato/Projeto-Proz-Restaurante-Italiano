@@ -14,6 +14,9 @@ header {
     background-color: #F5F5DC;
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
     justify-content: center;
     align-items: center;
 
@@ -26,6 +29,7 @@ header img {
 
 
 header ul {
+<<<<<<< HEAD
 =======
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
@@ -58,6 +62,8 @@ header ul {
   
   #preco-estrela {
 >>>>>>> e31ae5ac94badfc3ded6d8731f23232d69c8df24
+=======
+>>>>>>> main
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +78,7 @@ header ul {
 }
 
 #botoes {
+<<<<<<< HEAD
 =======
     width: 446px;
     margin-bottom: 20px;
@@ -132,6 +139,8 @@ header ul {
   
   .pratos-selec-titulo {
 >>>>>>> e31ae5ac94badfc3ded6d8731f23232d69c8df24
+=======
+>>>>>>> main
     display: flex;
 
 }
@@ -651,8 +660,11 @@ h3 {
     width: 100vw;
     justify-content: center;
 }
+<<<<<<< HEAD
 =======
   }
   
  
 >>>>>>> e31ae5ac94badfc3ded6d8731f23232d69c8df24
+=======
+>>>>>>> main
