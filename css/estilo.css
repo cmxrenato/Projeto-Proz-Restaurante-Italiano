@@ -16,18 +16,9 @@ body{
 
     
 }
-.layout-conteudo{
-    display: flex;
-    justify-content: center;
-}
-main{
-   
-    
-    width: 80vw;
-    
-}
 
-
+.container-categorias-card{
+}
 
 
 .categories {
@@ -35,8 +26,7 @@ main{
     background-color: #f5f5dc;
     text-align: center;
     margin-bottom: 50px;
-    
-    
+    margin-right: 20px;
     
    
 
@@ -80,7 +70,6 @@ main{
     justify-content: center;
     gap: 30px;
     color: #830808;
-    margin-left: 50px;
     
    
 }
@@ -164,7 +153,7 @@ main{
 
 .chef-suggestions {
     
-    
+    width: 100vw;
     background-color: #f5f5dc;
     text-align: center;
 }
@@ -179,7 +168,7 @@ main{
 header{
    width: auto;
    height: 80px;
-   width: 100%;
+   width: 100vw;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -194,7 +183,7 @@ header{
     background-position: center; /* Centraliza a imagem */
     height: 1200px;
     
-    width: 100%;
+    width: 100vw;
     
     
 
@@ -301,18 +290,15 @@ header img{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    margin-top: 100px;
-    
+    margin-top: 50px;
     
 }
 
 
 .btn-white {
     background-color: #fff;
-    width: 279px;
-    height: 80px;
-    
-    font-size: 32px;
+    width: 179px;
+    height: 32px;
     border-radius: 10px; /* Define bordas arredondadas */
     padding: 10px 20px; /* Ajusta o espaçamento interno para uma boa aparência */
     border: none; /* Remove borda padrão */
@@ -334,9 +320,8 @@ header img{
 .btn-red {
     background-color: #8B1A1A;
     color: white;
-    width: 279px;
-    height: 80px;
-    font-size: 32px;
+    width: 179px;
+    height: 32px;
     margin-left: 10px;
     color: #fff;
     border-radius: 10px; /* Define bordas arredondadas */
@@ -370,9 +355,7 @@ header img{
 }
 .cta-buttons {
     margin: 20px;
-
 }
-
 .chef-section{
     margin-right: 70px;
 }
