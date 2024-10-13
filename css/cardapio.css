@@ -13,6 +13,7 @@ header {
     height: 177px;
     background-color: #F5F5DC;
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     align-items: center;
 
@@ -25,9 +26,42 @@ header img {
 
 
 header ul {
+=======
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
+  }
+
+  
+  .card-prato {
+    width: 400px;
+    height: 523px;
+    background-color: white;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-right: 20px;	
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    align-items: center;
+    border-radius: 55px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card-prato:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  #coracao {
+    text-align: end;
+    width: 400px;
+  }
+  
+  #preco-estrela {
+>>>>>>> e31ae5ac94badfc3ded6d8731f23232d69c8df24
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     width: 100%;
     list-style-type: none;
 
@@ -38,6 +72,66 @@ header ul {
 }
 
 #botoes {
+=======
+    width: 446px;
+    margin-bottom: 20px;
+  }
+  
+  
+  #nota {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #454545;
+  }
+  
+  #preco-estrela span {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ff6868;
+  }
+  
+  #preco-estrela p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  .prato-e-descricao {
+    width: 446px;
+      text-align: center;
+    
+  }
+  
+  .prato-e-descricao p {
+    margin-bottom: 15px;
+  }
+  
+  .titulo-prato {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  
+  }
+  
+  .subtitulo-prato {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #555555;
+  
+  }
+  
+  .imagem img,
+  #pratos {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+  }
+  
+  .pratos-selec-titulo {
+>>>>>>> e31ae5ac94badfc3ded6d8731f23232d69c8df24
     display: flex;
 
 }
@@ -353,6 +447,7 @@ main {
     font-size: 20px;
     color: #C9A67C;
     text-align: center;
+<<<<<<< HEAD
 }
 
 .card {
@@ -556,3 +651,8 @@ h3 {
     width: 100vw;
     justify-content: center;
 }
+=======
+  }
+  
+ 
+>>>>>>> e31ae5ac94badfc3ded6d8731f23232d69c8df24

@@ -1,0 +1,141 @@
+/* Estilo principal para os formulários */
+.div-form {
+    width: 1280px;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 26px;
+}
+
+/* Estilo para a formatação geral dos inputs e elementos de formulário */
+form input, 
+form select, 
+form textarea, 
+form button {
+    width: 650px;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo específico para textarea */
+form textarea {
+    height: 200px;
+}
+
+/* Estilo para botões do formulário */
+form button {
+    background-color: #8b2b27;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+form button:hover {
+    background-color: #a33c36;
+}
+
+/* Estilo para grupos de formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #064635;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #8B1A1A;
+}
+
+
+
+/* Estilo para título na div-form */
+.div-form .sub1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: 'Cinzel', serif;
+}
+
+/* Estilo de validação para a página CADASTRO*/
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+
+.helper-text {
+    display: none;
+    font-size: .8rem;
+    color: darkred;
+  }
+
+  .required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  
+  .toggle-password-btn {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  label {
+    margin-bottom: .2rem;
+    position: relative;
+  }
+  
+  label:not(:first-of-type){
+    margin-top: 1rem;
+  }

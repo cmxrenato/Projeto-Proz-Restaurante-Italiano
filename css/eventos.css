@@ -1,0 +1,68 @@
+/* =================== MAIN ================== */
+  
+.titulo-section1{
+  width: 100%; 
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding-left: 80px;
+}
+
+.bloco-eventos {
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 20px;
+  margin-top: 80px; 
+}
+
+.evento {
+  text-align: center; 
+  width: 100%; 
+  max-width: 800px;
+  background-color: #ffffffb2;
+  margin: 10px 200px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-evento {
+  width: 100%; 
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px; 
+}
+
+.dia {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  font-size: 46px;
+  color: #8B1A1A;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.titulo-evento {
+  font-size: 20px;
+  color: #000000;
+  margin: 16px 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.descricao-evento {
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.linha-decorativa {
+width: 300px; 
+height: auto;
+margin: 20px auto; 
+}
+
+
