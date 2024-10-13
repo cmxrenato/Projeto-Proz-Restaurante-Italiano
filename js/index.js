@@ -1,41 +1,41 @@
 const cardapio = [
     {   
-        logo: "../images/coracao-cheio.png",
-        img: "../images/Lasanha-a-bolonhesa-com-carne-moida.png",
+        logo: "images/coracao-cheio.png",
+        img: "images/Lasanha-a-bolonhesa-com-carne-moida.png",
         titulo: "Lasanha Bolonhesa",
         subtitulo: "Ingredientes de alta qualidade",
     },
     {
-        logo: "../images/coracao.png",
-        img: "../images/index/calzone.jpeg",
+        logo: "images/coracao.png",
+        img: "images/index/calzone.jpeg",
         titulo: "Calzone",
         subtitulo: "Assados <br> e bem recheado",
     
     },
     {   
-        logo: "../images/coracao.png",
-        img: "../images/index/pizza-italiana-tradicional-com-tomates-e-manjericao-em-alusao-a-historia-da-pizza.png",
+        logo: "images/coracao.png",
+        img: "images/index/pizza-italiana-tradicional-com-tomates-e-manjericao-em-alusao-a-historia-da-pizza.png",
         titulo: "Pizzas",
         subtitulo: "Assadas <br> forno a lenha",
     
     },
     {
-        logo: "../images/coracao-cheio.png",
-        img: "../images/PannaCotta.jpg",
+        logo: "images/coracao-cheio.png",
+        img: "images/PannaCotta.jpg",
         titulo: "Panna Cotta",
         subtitulo: "Legitma sobremesa Italiana",
 
     },
     {
-        logo: "../images/coracao.png",
-        img: "../images/nhoque.jpeg",
+        logo: "images/coracao.png",
+        img: "images/nhoque.jpeg",
         titulo: "Nhoque",
         subtitulo: "Bolinhos de Batata <br> com um molho delicioso",
    
     },
     {   
-        logo: "../images/coracao.png",
-        img: "../images/macarronada.webp",
+        logo: "images/coracao.png",
+        img: "images/macarronada.webp",
         titulo: "Macarronada Tutti Nostri",
         subtitulo: "Macarronada da casa <br> com um segredo especial",
 
