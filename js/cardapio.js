@@ -1,7 +1,7 @@
 const cardapio = [
     {   
-        logo: "../images/coracao-cheio.png",
-        img: "../images/Pizza.png",
+        logo: "images/coracao-cheio.png",
+        img: "images/Pizza.png",
         titulo: "Pizza Margherita",
         subtitulo: "Assada em forno de lenha.",
         preco: "<span>R$</span> 69,99",
@@ -9,8 +9,8 @@ const cardapio = [
         nota: "5.0"
     },
     {
-        logo: "../images/coracao.png",
-        img: "../images/Arancino.png",
+        logo: "images/coracao.png",
+        img: "images/Arancino.png",
         titulo: "Arancino",
         subtitulo: "Bolinhos de arroz <br>recheados e empanados",
         preco: "<span>R$</span> 49,99",
@@ -18,8 +18,8 @@ const cardapio = [
         nota: "4.9"
     },
     {   
-        logo: "../images/coracao.png",
-        img: "../images/Raviolli.png",
+        logo: "images/coracao.png",
+        img: "images/Raviolli.png",
         titulo: "Ravioli",
         subtitulo: "Massa recheada <br> com diversos sabores",
         preco: "<span>R$</span> 39,99",
@@ -27,8 +27,8 @@ const cardapio = [
         nota: "5.0"
     },
     {
-        logo: "../images/coracao-cheio.png",
-        img: "../images/lasanha.webp",
+        logo: "images/coracao-cheio.png",
+        img: "images/lasanha.webp",
         titulo: "Lasanha",
         subtitulo: "Como é feita na Itália",
         preco: "<span>R$</span> 79,99",
@@ -36,8 +36,8 @@ const cardapio = [
         nota: "5.0"
     },
     {
-        logo: "../images/coracao.png",
-        img: "../images/nhoque.jpeg",
+        logo: "images/coracao.png",
+        img: "images/nhoque.jpeg",
         titulo: "Nhoque",
         subtitulo: "Bolinhos de Batata <br> com um molho delicioso",
         preco: "<span>R$</span> 59,99",
@@ -45,8 +45,8 @@ const cardapio = [
         nota: "4.9"
     },
     {   
-        logo: "../images/coracao.png",
-        img: "../images/macarronada.webp",
+        logo: "images/coracao.png",
+        img: "images/macarronada.webp",
         titulo: "Macarronada Tutti Nostri",
         subtitulo: "Macarronada da casa <br> com um segredo especial",
         preco: "<span>R$</span> 39,90",
