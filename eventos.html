@@ -30,11 +30,15 @@
   </div>
 </header>
 <section id="img-fundo">
-  <p>Eventos</p>
+  <div id="eventos-tempo">
+    <p>Eventos</p>
+    <div id="contador">
+      <i class="fas fa-clock"></i> Próximo evento em: 3d 12h 45m 23s
+    </div>
+  </div>
 </section>
 
 <main>
-
   <section class="titulo-section1">
     <div class="cartao-fixo">
       <p class="sub1">UMA CELEBRAÇÃO DE SABORES</p>
@@ -43,6 +47,15 @@
     </div>
   </section>
 
+  <div class="container">
+    <select id="filtro-dia">
+        <option value="todos">Todos</option>
+        <option value="Sexta">Sexta</option>
+        <option value="Sábado">Sábado</option>
+        <option value="Domingo">Domingo</option>
+    </select>
+  </div>
+
   <section class="eventos-container">
     <div class="bloco-eventos">
       <!-- Eventos renderizados -->
@@ -50,13 +63,12 @@
   </section>
 </main>
 
-
-
 <footer>
   <div class="rodape1">
     <section class="logo-rodape"> <img src="images/bannerRestauranteMini 2@2x.png" alt="Logo do restaurante" class="logo-footer">
       <p>Fundado em 1911, nosso restaurante nasceu da paixão pela culinária.</p>
     </section>
+
     <section class="listas-rodape">
       <ul>
         <li><strong>Links Úteis</strong></li>

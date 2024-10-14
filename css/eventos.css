@@ -27,6 +27,7 @@
 }
 
 .imagem-evento {
+  display: flex;
   width: 100%; 
   height: 300px;
   object-fit: cover;
@@ -65,4 +66,83 @@ height: auto;
 margin: 20px auto; 
 }
 
+.container {
+  display: flex;               /* Ativa o Flexbox */
+  justify-content: center;     /* Centraliza horizontalmente */
+  align-items: center;         /* Centraliza verticalmente (se a altura do contêiner for definida) */ 
+}
 
+#filtro-dia {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+#filtro-dia:hover {
+  border-color: #8B1A1A;
+}
+
+#filtro-dia:focus {
+  border-color: #8B1A1A;
+  box-shadow: 0 0 5px rgba(139, 26, 26, 0.5);
+}
+
+#filtro-dia {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-bottom: 40px; /* Você pode ajustar a margem conforme necessário */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#filtro-dia:hover {
+    border-color: #8B1A1A;
+}
+
+#filtro-dia:focus {
+    border-color: #8B1A1A;
+    box-shadow: 0 0 5px rgba(139, 26, 26, 0.5);
+}
+
+/* Estilo do contador */
+#contador {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  color: #8B1A1A;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+#contador:hover {
+  background-color: rgba(139, 26, 26, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+#contador i {
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+  color: #8B1A1A; /* Cor do ícone */
+}
+
+#eventos-tempo {
+  display: flex;
+  flex-direction: column; /* Alinha os elementos verticalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center;
+}
