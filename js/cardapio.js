@@ -3,7 +3,7 @@ const cardapio = [
         logo: "images/coracao-cheio.png",
         img: "images/Pizza.png",
         titulo: "Pizza Margherita",
-        subtitulo: "Assada em forno de lenha.",
+        subtitulo: "Assada em forno de lenha.<br>O nosso forno mais antigo",
         preco: "<span>R$</span> 69,99",
         estrelas: "⭐",
         nota: "5.0"

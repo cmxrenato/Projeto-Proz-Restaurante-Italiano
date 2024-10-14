@@ -1,6 +1,6 @@
 /* Estilo principal para os formulários */
 .div-form {
-    width: 1280px;
+    width: 1000px;
     height: 920px;
     display: flex;
     flex-direction: column;

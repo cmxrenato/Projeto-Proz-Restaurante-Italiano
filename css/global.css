@@ -5,6 +5,10 @@
   }
   body {
     background-color: #F5F5DC;
+    max-width: 100vw; /* 100% da largura da viewport */
+    max-height: 100vh; /* 100% da altura da viewport */
+   
+    
   }
   
   #botoes {
@@ -46,13 +50,14 @@
   }
   
   header {
-    width: 100%;
+    width: auto;
     height: 177px;
     background-color: #F5F5DC;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    
   }
   
   header img {
@@ -81,7 +86,7 @@
     color: black;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 16px;
     margin-right: 20px;
   }
   nav li a:hover {
@@ -97,6 +102,7 @@
   .layout-conteudo {
     display: flex;
     justify-content: center;
+   
   }
   #img-fundo {
     display: flex;
@@ -119,7 +125,10 @@
   .conteudo-main {
     display: flex;
     justify-content: center;
+    width: 100%;
     margin-top: 75px;
+    
+   
   }
   
   /* Subtítulos e textos variados */
@@ -184,8 +193,15 @@
   
   /* Estilo para botões na seção "a" */
   .a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
       margin-top: 100px;
+      width: 100vw;
+      
+      
   }
   
   .a .sub1 {
@@ -213,11 +229,14 @@
   
   
   /* =================== FOOTER ================== */
-  
+  footer{
+    width: 100vw;
+  }
   .rodape1 {
       display: flex;
       font-family: 'Inter', sans-serif;
       height: 400px;
+      
   }
   
   .logo-footer {
@@ -231,6 +250,7 @@
       font-family: 'Inter', sans-serif;
       font-size: 18px;
       color: #064635;
+      
   }
   
   .logo-rodape {

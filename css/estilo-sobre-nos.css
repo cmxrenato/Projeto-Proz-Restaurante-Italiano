@@ -2,12 +2,13 @@
     
 
 .card{
-  width: 1397px;
+  width: 1200px;
   height: 820px;
   display: flex;
   background-color: white;
   align-items: center;
   margin-top: 100px;
+  
 }
 .card img{
   width: 500px;

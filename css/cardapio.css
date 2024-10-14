@@ -1,3 +1,9 @@
+.layout-conteudo{
+  width: auto;
+}
+
+
+
 .pratos-cardapio {
     width: 1397px;
     display: flex;
@@ -7,8 +13,8 @@
 
   
   .card-prato {
-    width: 400px;
-    height: 523px;
+    width: 300px;
+    height:400px;
     background-color: white;
     margin-bottom: 100px;
     margin-top: 150px;
@@ -27,36 +33,38 @@
   }
   #coracao {
     text-align: end;
-    width: 400px;
+    width: 300px;
   }
   
   #preco-estrela {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 446px;
+    width: 300px;
     margin-bottom: 20px;
+    
+    
   }
   
   
   #nota {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 14px;
     color: #454545;
   }
   
   #preco-estrela span {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 14px;
     color: #ff6868;
   }
   
   #preco-estrela p {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 18px;
   }
   
   .prato-e-descricao {
@@ -72,14 +80,14 @@
   .titulo-prato {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
   
   }
   
   .subtitulo-prato {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 16px;
     color: #555555;
   
   }
@@ -93,7 +101,7 @@
   
   .pratos-selec-titulo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
   }
   
@@ -123,12 +131,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 30px;
+    
   }
   
   .mini-card-prato {
-    width: 277px;
-    height: 297.15px;
+    width: 250px;
+    height: 250px;
     background-color: white;
     padding: 20px;
     margin-bottom: 100px;
@@ -162,7 +171,7 @@
   .mini-card-prato p:nth-of-type(2) {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
     color: #c9a67c;
     text-align: center;
   }
