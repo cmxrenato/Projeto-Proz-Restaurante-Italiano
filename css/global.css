@@ -5,9 +5,10 @@
   }
   body {
     background-color: #F5F5DC;
+    width: 100%;
     max-width: 100vw; /* 100% da largura da viewport */
     max-height: 100vh; /* 100% da altura da viewport */
-   
+ 
     
   }
   
@@ -130,6 +131,29 @@
     
    
   }
+  .conteudo-main2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 75px;
+    
+    
+    
+   
+  }
+  .main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  .layout{
+    display: flex;
+    justify-content: center;
+    
+  
+  }
   
   /* Subtítulos e textos variados */
   .sub1 {
@@ -144,7 +168,7 @@
   .sub2 {
       font-family: 'Cinzel', serif;
       font-weight: 900;
-      font-size: 60px;
+      font-size: 50px;
       color: #064635;
       margin-top: 50px;
   }
@@ -185,7 +209,7 @@
   }
   
   #paragrafo {
-      font-size: 26px;
+      font-size: 22px;
       font-family: 'Inter', sans-serif;
       font-weight: medium;
       margin-top: 50px;

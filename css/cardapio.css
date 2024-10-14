@@ -1,11 +1,8 @@
-.layout-conteudo{
-  width: auto;
-}
 
 
 
 .pratos-cardapio {
-    width: 1397px;
+    width: auto;
     display: flex;
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
@@ -101,7 +98,7 @@
   
   .pratos-selec-titulo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
   }
   
