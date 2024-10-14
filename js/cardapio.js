@@ -19,7 +19,7 @@ const cardapio = [
     },
     {   
         logo: "images/coracao.png",
-        img: "images/Raviolli.png",
+        img: "images/ravioli.jpeg",
         titulo: "Ravioli",
         subtitulo: "Massa recheada <br> com diversos sabores",
         preco: "<span>R$</span> 39,99",
