@@ -490,7 +490,7 @@ header img {
   cursor: pointer;
 }
 .benvenuti button:hover {
-  background-color: #136c54;
+  background-color: #8B1A1A;
 }
 .benvenuti div:nth-of-type(2) {
   display: flex;
