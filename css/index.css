@@ -221,7 +221,7 @@ header img {
   margin-top: 50px;
 }
 .btn-red {
-  padding: 10px 20px;
+ 
   border: none;
   cursor: pointer;
   margin-top: 100px;
@@ -233,7 +233,7 @@ header img {
   font-size: 20px;
   border-radius: 10px;
   /* Define bordas arredondadas */
-  padding: 10px 20px;
+  
   /* Ajusta o espaçamento interno para uma boa aparência */
   border: none;
   /* Remove borda padrão */
@@ -265,8 +265,9 @@ header img {
   margin-left: 10px;
   color: #fff;
   border-radius: 10px;
+  
   /* Define bordas arredondadas */
-  padding: 10px 20px;
+  
   /* Ajusta o espaçamento interno para uma boa aparência */
   border: none;
   /* Remove borda padrão */
