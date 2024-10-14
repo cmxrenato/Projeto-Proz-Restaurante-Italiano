@@ -105,5 +105,5 @@ function atualizarContagemRegressiva(dataEvento) {
     }
 }
 
-const proximoEventoData = new Date('2024-10-14T19:00:00'); // Exemplo de data para o próximo evento
+const proximoEventoData = new Date('2024-10-18T19:00:00'); // Exemplo de data para o próximo evento
 setInterval(() => atualizarContagemRegressiva(proximoEventoData), 1000);
