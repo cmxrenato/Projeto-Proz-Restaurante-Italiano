@@ -220,12 +220,7 @@ header img {
   color: #064635;
   margin-top: 50px;
 }
-.btn-red {
- 
-  border: none;
-  cursor: pointer;
-  margin-top: 100px;
-}
+
 .btn-white {
   background-color: #fff;
   width: 179px;
@@ -257,7 +252,7 @@ header img {
   /* Troca o cursor para indicar que é um botão clicável */
 }
 .btn-red {
-  
+  margin-top: 100px;
   background-color: #8b1a1a;
   width: 179px;
   height: 40px;
