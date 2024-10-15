@@ -177,6 +177,17 @@ nav li a.active {
   color: #8B1A1A;
   letter-spacing: 5px;
 }
+.sub1-especial{
+  font-size: 36px;
+  color:#8B1A1A;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  
+  width: 450px;
+
+}
 
 .sub2 {
   font-family: 'Cinzel', serif;
