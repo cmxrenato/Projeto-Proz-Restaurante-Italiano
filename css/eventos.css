@@ -1,11 +1,5 @@
 /* =================== MAIN ================== */
   
-.titulo-section1{
-  width: 100%; 
-  margin-top: 80px;
-  margin-bottom: 20px;
-  padding-left: 80px;
-}
 
 .bloco-eventos {
   width: 100%;
@@ -20,7 +14,7 @@
   text-align: center; 
   width: 100%; 
   max-width: 800px;
-  background-color: #ffffffb2;
+  background-color: #ffffff;
   margin: 10px 200px;
   padding: 20px 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -46,7 +40,7 @@
 
 .titulo-evento {
   font-size: 20px;
-  color: #000000;
+  color: #8B1A1A;
   margin: 16px 0;
   font-family: 'Inter', sans-serif;
   font-weight: 600;

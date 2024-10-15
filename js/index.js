@@ -3,7 +3,7 @@ const cardapio = [
         logo: "images/coracao-cheio.png",
         img: "images/Lasanha-a-bolonhesa-com-carne-moida.png",
         titulo: "Lasanha Bolonhesa",
-        subtitulo: "Ingredientes de alta qualidade",
+        subtitulo: "Ingredientes <br> de alta qualidade",
     },
     {
         logo: "images/coracao.png",
@@ -23,7 +23,7 @@ const cardapio = [
         logo: "images/coracao-cheio.png",
         img: "images/PannaCotta.jpg",
         titulo: "Panna Cotta",
-        subtitulo: "Legitma sobremesa Italiana",
+        subtitulo: "Legitma sobremesa Italiana  <br> típica da região de Piemonte",
 
     },
     {

@@ -10,13 +10,13 @@
 }
 .categories h2 {
   font-size: 32px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   color: #156f2d;
 }
 .category-cards {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 3.5rem;
   color: #830808;
   margin-left: 50px;
 }
@@ -46,8 +46,8 @@
   height: 250px;
   background-color: white;
   padding: 20px;
+  margin-top: 100px;
   margin-bottom: 100px;
-  margin-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,7 +164,7 @@ header img {
   margin-top: 150px;
   gap: 10px;
   /* Espaçamento entre as seções */
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
 }
 .container2 {
   display: flex;
@@ -236,7 +236,7 @@ header img {
   /* Troca o cursor para indicar que é um botão clicável */
 }
 .btn-white:hover {
-  background-color: #767676;
+  background-color:#064635;
   color: #fff;
 }
 .btn-verde {
@@ -347,8 +347,8 @@ header img {
   background-color: #898989;
 }
 .card-prato {
-  width: 250px;
-  height:350px;
+  width: 290px;
+  height:360px;
   background-color: white;
   margin-bottom: 100px;
   margin-top: 150px;
@@ -363,8 +363,8 @@ header img {
 }
 .imagem img,
 #pratos {
-  height: 180px;
-  width: 180px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 
@@ -384,13 +384,14 @@ header img {
   display: flex;
   justify-content: center; /* Centraliza o conteúdo horizontalmente */
   flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
-  gap:100px;
+  gap:4rem;
 }
 #coracao {
   text-align: end;
-  width: 250px;
-  
+  width: 290px;
 }
+
+
 .preco-estrela {
   display: flex;
   justify-content: space-around;
@@ -422,15 +423,18 @@ header img {
   margin-bottom: 15px;
 }
 .titulo-prato {
-  font-family: "Playfair Display", serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 20px;
+  color: #8b1a1a;
+  margin-top: 0.6rem;
 }
 .subtitulo-prato {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: #555555;
+  padding-bottom: 1rem;
 }
 #feed-cliente {
   display: flex;
@@ -479,10 +483,10 @@ header img {
 }
 .benvenuti button {
   margin-top: 50px;
-  width: 215px;
-  height: 80px;
+  width: 200px;
+  height: 67px;
   border-radius: 50px;
-  font-size: 26px;
+  font-size: 22px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   background-color: #064635;

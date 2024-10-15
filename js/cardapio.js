@@ -30,7 +30,7 @@ const cardapio = [
         logo: "images/coracao-cheio.png",
         img: "images/lasanha.webp",
         titulo: "Lasanha",
-        subtitulo: "Como é feita na Itália",
+        subtitulo: "Preparada à moda italiana, <br> com molho artesanal",
         preco: "<span>R$</span> 79,99",
         estrelas: "⭐",
         nota: "5.0"
