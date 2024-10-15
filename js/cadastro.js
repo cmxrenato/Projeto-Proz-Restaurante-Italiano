@@ -113,8 +113,10 @@ let form = document.getElementById("cadastro-form");
 form.addEventListener("submit", (e) => {
     let senhaValida = senhaInput.classList.contains('correct');
     let confirmaSenhaValida = confirmaSenhaInput.classList.contains('correct');
+    let emailValido = usernameEmail.classList.contains('correct');
+    let usernameValido = usernameInput.classList.contains('correct');
 
-    if (!senhaValida || !confirmaSenhaValida) {
+    if (!senhaValida || !confirmaSenhaValida || !emailValido || !usernameValido) {
         e.preventDefault(); 
         alert("Por favor, corrija os erros antes de enviar."); 
     } else {
