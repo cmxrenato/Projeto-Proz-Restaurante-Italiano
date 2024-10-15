@@ -73,8 +73,18 @@ function togglePassword(btn, inputId) {
     }
 }
 
+let form = document.getElementById("form-login"); 
 
-
+form.addEventListener("submit", (e) => {
+    let senhaValida = senhaInput.classList.contains('correct');
+    let emailValido = usernameEmail.classList.contains('correct');
+   
+    if (!senhaValida || !emailValido) { 
+        e.preventDefault(); 
+        alert("Por favor, corrija os erros antes de enviar."); 
+        } else { 
+            alert("Login realizado com sucesso!"); 
+    }});
 
 
 

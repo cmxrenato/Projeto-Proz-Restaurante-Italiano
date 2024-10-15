@@ -113,10 +113,14 @@ let form = document.getElementById("cadastro-form");
 form.addEventListener("submit", (e) => {
     let senhaValida = senhaInput.classList.contains('correct');
     let confirmaSenhaValida = confirmaSenhaInput.classList.contains('correct');
+    let emailValido = usernameEmail.classList.contains('correct');
+    let usernameValido = usernameInput.classList.contains('correct');
 
-    if (!senhaValida || !confirmaSenhaValida) {
-        e.preventDefault(); // Impede o envio do formulário
-        alert("Por favor, corrija os erros antes de enviar."); // Mensagem de alerta
+    if (!senhaValida || !confirmaSenhaValida || !emailValido || !usernameValido) {
+        e.preventDefault(); 
+        alert("Por favor, corrija os erros antes de enviar."); 
+    } else {
+        alert("Cadastro realizado com sucesso! Bem-vindo ao Tutti Nostri Ristorante"); 
     }
 });
 
