@@ -79,13 +79,12 @@ form.addEventListener("submit", (e) => {
     let senhaValida = senhaInput.classList.contains('correct');
     let emailValido = usernameEmail.classList.contains('correct');
    
-
-    if (!senhaValida || !emailValido) {
-        e.preventDefault(); // Impede o envio do formulário
-        alert("Por favor, corrija os erros antes de enviar."); // Mensagem de alerta
-    }
-});
-
+    if (!senhaValida || !emailValido) { 
+        e.preventDefault(); 
+        alert("Por favor, corrija os erros antes de enviar."); 
+        } else { 
+            alert("Login realizado com sucesso!"); 
+    }});
 
 
 
