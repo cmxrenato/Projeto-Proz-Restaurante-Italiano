@@ -6,15 +6,16 @@
     display: flex;
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
+    gap: 3rem;
   }
 
   
   .card-prato {
-    width: 300px;
-    height:400px;
+    width: 322px;
+    height: 400px;
     background-color: white;
     margin-bottom: 100px;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-right: 20px;	
     display: flex;
     flex-direction: column;
@@ -30,7 +31,7 @@
   }
   #coracao {
     text-align: end;
-    width: 300px;
+    width: 322px;
   }
   
   #preco-estrela {
@@ -78,6 +79,8 @@
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 20px;
+    color: #8b1a1a;
+    margin-top: 0.6rem;
   
   }
   
@@ -91,8 +94,8 @@
   
   .imagem img,
   #pratos {
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
   }
   

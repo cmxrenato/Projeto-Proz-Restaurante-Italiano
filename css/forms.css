@@ -1,15 +1,20 @@
 /* Estilo principal para os formulários */
-.div-form {
-    width: 800px;
-    height: 800px;
+ .div-form {
+    width: 750px;
+    height: auto 70rem ;
     display: flex;
     flex-direction: column;
     background-color: white;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     font-size: 18px;
-}
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+} 
+
 
 /* Estilo para a formatação geral dos inputs e elementos de formulário */
 form input, 

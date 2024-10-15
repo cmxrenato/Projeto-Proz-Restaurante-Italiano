@@ -1,131 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tutti Nostri - Cadastro</title>
-<link rel="stylesheet" href="css/global.css">
-<link rel="stylesheet" href="css/forms.css">
-<link rel="stylesheet" href="css/cadastro.css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-<script src="js/cadastro.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutti Nostri - Cadastro</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/forms.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <script src="js/cadastro.js" defer></script>
 </head>
 
 <body>
-<header> <a href="index.html"><img src="images/logo-principal-header.png" alt="Logo Principal" class="logo-main"></a>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="cardapio.html">Cardápio</a></li>
-      <li><a href="sobre-nos.html">Sobre Nós</a></li>
-      <li><a href="eventos.html">Eventos</a></li>
-      <li><a href="contato.html">Contato</a></li>
-      <li><a href="reserva.html">Reservas</a></li>
-      <li><a href="cartoes-presente.html">Presentes</a></li>
-    </ul>
-  </nav>
-  <div id="botoes">
-    <button onclick="window.location.href='login.html'" id="entrar">Entrar</button>
-    <button id="registrar" onclick="window.location.href='cadastro.html'">Registrar</button>
-  </div>
-</header>
-<section id="img-fundo">
-  <p>Cadastro</p>
-</section>
-<div class="layout-conteudo">
-  <main>
-    <section class="main1">
-      <section class="conteudo-main">
-        <section>
-          <div>
-            <p class="sub1">CADASTRO</p>
-            <p class="sub2">Tutti Nostri <br>
-              Ristorante</p>
-          </div>
-          <div class="div-form">
-            
-            <form action="" id="cadastro-form">
-              <div class="form-group">
+    <header>
+        <a href="index.html"><img src="images/logo-principal-header.png" alt="Logo Principal" class="logo-main"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="reserva.html">Reservas</a></li>
+                <li><a href="cartoes-presente.html">Presentes</a></li>
+            </ul>
+        </nav>
+        <div id="botoes">
+            <button onclick="window.location.href='login.html'" id="entrar">Entrar</button>
+            <button id="registrar" onclick="window.location.href='cadastro.html'">Registrar</button>
+        </div>
+    </header>
+    <section id="img-fundo">
+        <p>Cadastro</p>
+    </section>
+
+    <main>
+        <section class="titulo-section1">
+            <div class="cartao-fixo">
                 <p class="sub1">CADASTRO</p>
-                <label for="nome">Nome Completo:</label>
-                <input type="text" id="nome" name="nome" required>
-                <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
-              </div>
-                      
-              <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
-                <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
-              </div>
-              <div class="form-group">
-                <label for="senha">Senha:</label>
-      <input type="password" id="senha" name="senha" required placeholder="A senha precisa ter pelo menos 3 caracteres e um caractere especial"/>
-      <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
-      <span class="toggle-password-btn" onclick="togglePassword(this, 'senha')"
-        >👁️‍🗨️</span>
-              </div>
-              <div class="form-group">
-                <label for="confirma-senha">Confirmar senha:</label>
-                <input type="password" id="confirma-senha" name="confirma-senha" required placeholder="As senhas precisam ser iguais" />
-                <p id="confirma-senha-helper" class="helper-text">Mensagem de ajuda</p>
-                <span
-                  class="toggle-password-btn"
-                  onclick="togglePassword(this, 'confirma-senha')"
-                  >👁️‍🗨️</span>
-              <div class="form-group">
-                <button type="submit">Cadastrar</button>
-              </div>
-            </form>
-          </div>
+                <p class="sub2">Tutti Nostri <br> Ristorante</p>
+            </div>
         </section>
-      </section>
-    </section>
-  </main>
-</div>
-<footer>
-  <div class="rodape1">
-    <section class="logo-rodape"> <img src="images/bannerRestauranteMini 2@2x.png" alt="Logo do restaurante" class="logo-footer">
-      <p>Fundado em 1911, nosso restaurante nasceu da paixão pela culinária.</p>
-    </section>
-    <section class="listas-rodape">
-      <ul>
-        <li><strong>Links Úteis</strong></li>
-        <li><a href="#">Sobre Nós</a></li>
-        <li><a href="#">Eventos</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">FAQ</a></li>
-      </ul>
-      <ul>
-        <li><strong>Menu Principal</strong></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Reservas</a></li>
-        <li><a href="#">Pratos</a></li>
-        <li><a href="#">Cartões Presente</a></li>
-      </ul>
-      <ul>
-        <li><strong>Contatos</strong></li>
-        <li><a href="mailto:exampla@email.com">exampla@email.com</a></li>
-        <li><a href="tel:+95958248966">+95 958 248 966</a></li>
-        <li><a href="#">Social Media</a></li>
-      </ul>
-    </section>
-  </div>
-  <div class="rodape2">
-    <section class="redes">
-      <ul>
-        <li><a href="#"><img src="images/logo-face.svg" alt="Facebook"></a></li>
-        <li><a href="#"><img src="images/logo-insta.svg" alt="Instagram"></a></li>
-        <li><a href="#"><img src="images/logo-x.svg" alt="X (antigo Twitter)"></a></li>
-        <li><a href="#"><img src="images/logo-youtube.svg" alt="YouTube"></a></li>
-      </ul>
-    </section>
-    <section class="copyright">
-      <p>Copyright &#169; 2024 Grupo 4 T31 | Todos os direitos reservados.</p>
-    </section>
-  </div>
-</footer>
+
+        <section class="main1">
+            <section class="conteudo-main">
+                <section>
+                    <div class="div-form">
+                        <form action="" id="cadastro-form">
+                            <div class="form-group">
+                                <p class="sub1-especial">CADASTRO</p>
+                                <label for="nome">Nome Completo:</label>
+                                <input type="text" id="nome" name="nome" required>
+                                <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+                                <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senha">Senha:</label>
+                                <input type="password" id="senha" name="senha" required placeholder="A senha precisa ter pelo menos 3 caracteres e um caractere especial" />
+                                <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
+                                <span class="toggle-password-btn" onclick="togglePassword(this, 'senha')">👁️‍🗨️</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="confirma-senha">Confirmar senha:</label>
+                                <input type="password" id="confirma-senha" name="confirma-senha" required placeholder="As senhas precisam ser iguais" />
+                                <p id="confirma-senha-helper" class="helper-text">Mensagem de ajuda</p>
+                                <span class="toggle-password-btn" onclick="togglePassword(this, 'confirma-senha')">👁️‍🗨️</span>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit">Cadastrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rodape1">
+            <section class="logo-rodape">
+                <img src="images/bannerRestauranteMini 2@2x.png" alt="Logo do restaurante" class="logo-footer">
+                <p>Fundado em 1911, nosso restaurante nasceu da paixão pela culinária.</p>
+            </section>
+            <section class="listas-rodape">
+                <ul>
+                    <li><strong>Links Úteis</strong></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+                <ul>
+                    <li><strong>Menu Principal</strong></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Reservas</a></li>
+                    <li><a href="#">Pratos</a></li>
+                    <li><a href="#">Cartões Presente</a></li>
+                </ul>
+                <ul>
+                    <li><strong>Contatos</strong></li>
+                    <li><a href="mailto:exampla@email.com">exampla@email.com</a></li>
+                    <li><a href="tel:+95958248966">+95 958 248 966</a></li>
+                    <li><a href="#">Social Media</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="rodape2">
+            <section class="redes">
+                <ul>
+                    <li><a href="#"><img src="images/logo-face.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/logo-insta.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="images/logo-x.svg" alt="X (antigo Twitter)"></a></li>
+                    <li><a href="#"><img src="images/logo-youtube.svg" alt="YouTube"></a></li>
+                </ul>
+            </section>
+            <section class="copyright">
+                <p>Copyright &#169; 2024 Grupo 4 T31 | Todos os direitos reservados.</p>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
