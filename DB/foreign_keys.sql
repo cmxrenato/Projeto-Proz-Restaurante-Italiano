@@ -1,0 +1,8 @@
+-- Chaves estrangeiras para os relacionamentos
+ALTER TABLE PRATOS ADD CONSTRAINT fk_categoria FOREIGN KEY (id_categoria) REFERENCES CATEGORIAS(id_categoria);
+ALTER TABLE RESERVAS ADD CONSTRAINT fk_cliente_reserva FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente);
+ALTER TABLE PRESENTES ADD CONSTRAINT fk_cliente_presente FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente);
+ALTER TABLE PEDIDOS ADD CONSTRAINT fk_cliente_pedido FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente);
+ALTER TABLE ITENS_PEDIDO ADD CONSTRAINT fk_pedido_item FOREIGN KEY (id_pedido) REFERENCES PEDIDOS(id_pedido);
+ALTER TABLE ITENS_PEDIDO ADD CONSTRAINT fk_prato_item FOREIGN KEY (id_prato) REFERENCES PRATOS(id_prato);
+ALTER TABLE PAGAMENTOS ADD CONSTRAINT fk_pedido_pagamento FOREIGN KEY (id_pedido) REFERENCES PEDIDOS(id_pedido);
