@@ -14,7 +14,7 @@ CREATE TABLE PRATOS (
     preco DECIMAL(10, 2) NOT NULL,
     id_categoria INT REFERENCES CATEGORIAS(id_categoria),
     disponivel BOOLEAN DEFAULT TRUE,
-    sugestao_chef BOOLEAN DEFAULT FALSE, -- Nova coluna
+    sugestao_chef BOOLEAN DEFAULT FALSE -- Nova coluna
 );
 
 -- Tabela CLIENTES (Renato)

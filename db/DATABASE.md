@@ -86,7 +86,7 @@ No DER, podemos visualizar essas entidades conectadas com linhas que representam
 
 Isso deve cobrir o funcionamento básico de um restaurante, incluindo reservas, pedidos, categorias de pratos e pagamentos.
 
-![Diagrama do Sistema](/db/exports/tutti_nostri.png)
+![Diagrama do Sistema](/db/exports/tutti_nostri_full.png)
 
 
 ## Relacionamentos Chave Estrangeira
