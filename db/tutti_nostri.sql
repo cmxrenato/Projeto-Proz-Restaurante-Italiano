@@ -1,12 +1,12 @@
 -- Criação das tabelas
 
--- Tabela CATEGORIAS
+-- Tabela CATEGORIAS (Gislene)
 CREATE TABLE CATEGORIAS (
     id_categoria SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL
 );
 
--- Tabela PRATOS
+-- Tabela PRATOS (Renato)
 CREATE TABLE PRATOS (
     id_prato SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE PRATOS (
     disponivel BOOLEAN DEFAULT TRUE
 );
 
--- Tabela CLIENTES
+-- Tabela CLIENTES (Renato)
 CREATE TABLE CLIENTES (
     id_cliente SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -24,7 +24,7 @@ CREATE TABLE CLIENTES (
     email VARCHAR(100)
 );
 
--- Tabela RESERVAS
+-- Tabela RESERVAS (Michael)
 CREATE TABLE RESERVAS (
     id_reserva SERIAL PRIMARY KEY,
     id_cliente INT REFERENCES CLIENTES(id_cliente),
@@ -33,7 +33,7 @@ CREATE TABLE RESERVAS (
     status_reserva VARCHAR(50)
 );
 
--- Tabela EVENTOS
+-- Tabela EVENTOS (Jão)
 CREATE TABLE EVENTOS (
     id_evento SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE EVENTOS (
     descricao TEXT
 );
 
--- Tabela PRESENTES
+-- Tabela PRESENTES (Poliana)
 CREATE TABLE PRESENTES (
     id_presente SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE PRESENTES (
     id_cliente INT REFERENCES CLIENTES(id_cliente)
 );
 
--- Tabela PEDIDOS
+-- Tabela PEDIDOS (Janei)
 CREATE TABLE PEDIDOS (
     id_pedido SERIAL PRIMARY KEY,
     id_cliente INT REFERENCES CLIENTES(id_cliente),
@@ -59,7 +59,7 @@ CREATE TABLE PEDIDOS (
     valor_total DECIMAL(10, 2)
 );
 
--- Tabela ITENS_PEDIDO
+-- Tabela ITENS_PEDIDO (Janei)
 CREATE TABLE ITENS_PEDIDO (
     id_item SERIAL PRIMARY KEY,
     id_pedido INT REFERENCES PEDIDOS(id_pedido),
@@ -68,7 +68,7 @@ CREATE TABLE ITENS_PEDIDO (
     preco_unitario DECIMAL(10, 2) NOT NULL
 );
 
--- Tabela PAGAMENTOS
+-- Tabela PAGAMENTOS (Janei)
 CREATE TABLE PAGAMENTOS (
     id_pagamento SERIAL PRIMARY KEY,
     id_pedido INT REFERENCES PEDIDOS(id_pedido),
