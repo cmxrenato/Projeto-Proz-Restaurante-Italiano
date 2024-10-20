@@ -130,4 +130,16 @@ Isso deve cobrir o funcionamento básico de um restaurante, incluindo reservas, 
 ![Diagrama do Sistema](/db/exports/tutti_nostri_eventos.png)
 
 
+## Implementação (Usando SGDB Online)
 
+Para implentar e testar este modelo ER você pode acessar o site SQL Lite em: [https://sqliteonline.com/ ](https://sqliteonline.com/).
+
+1. Selecione PostgreSQL
+1. Exclua a tabela **demo** ou qualquer outra tabela da base existente.
+1. Abra uma aba para executar scripts sql ou comandos
+1. Execute o escript de criação de tabelas [tutti_nostri.sql](/db/tutti_nostri.sql)
+1. Execute o escript de criação de chaves estrangeiras [foreign_keys.sql](/db/foreign_keys.sql)
+1. Execute o escript de carga de dados para pedidos e seus requisitos (categorias, pratos, clientes...) [carga_de_dados_pedidos.sql](/db/carga_de_dados_pedidos.sql)
+1. Execute o escript de carga de dados para dados extras (eventos, reservas e presentes) [carga_de_dados_extras.sql](/db/carga_de_dados_extras.sql)
+
+Com esses procedimentos a base estará populada e pronta para seleção de dados.
