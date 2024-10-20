@@ -11,6 +11,7 @@
 - `preco` (Preço do prato)
 - `id_categoria` (FK - Categoria do prato)
 - `disponivel` (Booleano para saber se o prato está disponível)
+- `sugestao_chef` (Booleano para marcar se o prato é uma sugestão do chef)
 
 **Relacionamento**: Cada prato pertence a uma categoria de CATEGORIAS.
 - **1:N** entre **CATEGORIAS** e **PRATOS**.

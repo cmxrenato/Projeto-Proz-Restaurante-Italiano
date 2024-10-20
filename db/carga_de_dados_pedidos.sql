@@ -1,32 +1,57 @@
 -- Inserindo dados na tabela CATEGORIAS
-INSERT INTO CATEGORIAS (nome) VALUES 
+INSERT INTO CATEGORIAS (nome) VALUES
 ('Massas'),
 ('Sobremesas'),
 ('Bebidas'),
-('Carnes'),
-('Saladas'),
-('Entradas');
+('Entradas'),
+('Pizzas'),
+('Saladas');
 
--- Inserindo dados na tabela PRATOS
-INSERT INTO PRATOS (nome, descricao, preco, id_categoria, disponivel) VALUES 
-('Spaghetti Carbonara', 'Tradicional massa italiana com bacon e molho carbonara', 25.50, 1, TRUE),
-('Lasanha Bolonhesa', 'Lasanha com molho bolonhesa e queijo gratinado', 30.00, 1, TRUE),
-('Penne ao Pesto', 'Massa com molho pesto de manjericão', 28.00, 1, TRUE),
-('Tiramisu', 'Sobremesa italiana com café, mascarpone e cacau', 18.00, 2, TRUE),
-('Pudim de Leite', 'Pudim tradicional de leite condensado', 12.00, 2, TRUE),
-('Sorvete de Baunilha', 'Sorvete caseiro de baunilha', 10.00, 2, TRUE),
-('Refrigerante', 'Bebida gaseificada', 5.00, 3, TRUE),
-('Suco de Laranja', 'Suco natural de laranja', 7.00, 3, TRUE),
-('Água com Gás', 'Água mineral com gás', 4.00, 3, TRUE),
-('Picanha Grelhada', 'Picanha grelhada com acompanhamentos', 50.00, 4, TRUE),
-('Frango à Parmegiana', 'Frango empanado com queijo e molho', 35.00, 4, TRUE),
-('Filé Mignon', 'Filé mignon ao ponto com batatas', 60.00, 4, TRUE),
-('Salada Caesar', 'Salada com alface, croutons e molho Caesar', 15.00, 5, TRUE),
-('Salada Caprese', 'Salada com tomate, mussarela e manjericão', 20.00, 5, TRUE),
-('Salada de Frutas', 'Salada com frutas da estação', 12.00, 5, TRUE),
-('Bruschetta', 'Pão tostado com tomate e manjericão', 18.00, 6, TRUE),
-('Tábua de Frios', 'Seleção de queijos e embutidos', 40.00, 6, TRUE),
-('Crostini de Cogumelos', 'Pão tostado com cogumelos', 22.00, 6, TRUE);
+-- Inserindo 30 pratos, com algumas sugestões do chef (sugestao_chef = TRUE)
+
+INSERT INTO PRATOS (nome, descricao, preco, id_categoria, disponivel, sugestao_chef) VALUES
+-- Categoria 1: Massas
+('Spaghetti Carbonara', 'Massa tradicional italiana com bacon e molho carbonara', 25.00, 1, TRUE, TRUE),
+('Lasanha de Carne', 'Camadas de massa intercaladas com carne moída e molho bolonhesa', 32.00, 1, TRUE, FALSE),
+('Risotto de Cogumelos', 'Risotto cremoso com cogumelos e parmesão', 28.00, 1, TRUE, TRUE),
+('Penne ao Molho Pesto', 'Massa penne com molho pesto de manjericão', 22.00, 1, TRUE, FALSE),
+('Fettuccine Alfredo', 'Massa fettuccine com molho cremoso de queijo e manteiga', 26.00, 1, TRUE, TRUE),
+('Gnocchi ao Sugo', 'Massa de batata servida com molho de tomate fresco', 24.00, 1, TRUE, FALSE),
+
+-- Categoria 2: Sobremesas
+('Tiramisu', 'Sobremesa italiana com camadas de mascarpone e café', 18.00, 2, TRUE, FALSE),
+('Panna Cotta', 'Sobremesa italiana à base de creme de leite e frutas vermelhas', 16.00, 2, TRUE, TRUE),
+('Torta de Limão', 'Torta de limão com base crocante e creme azedinho', 14.00, 2, TRUE, FALSE),
+('Mousse de Chocolate', 'Mousse aerada de chocolate meio amargo', 12.00, 2, TRUE, TRUE),
+('Pudim de Leite', 'Pudim clássico de leite condensado e caramelo', 10.00, 2, TRUE, FALSE),
+
+-- Categoria 3: Bebidas
+('Suco de Laranja', 'Suco de laranja natural', 8.00, 3, TRUE, FALSE),
+('Coca-Cola', 'Refrigerante Coca-Cola lata', 6.00, 3, TRUE, FALSE),
+('Água Mineral', 'Água mineral sem gás', 4.00, 3, TRUE, FALSE),
+('Cerveja Artesanal', 'Cerveja artesanal da casa', 12.00, 3, TRUE, TRUE),
+('Vinho Tinto', 'Taça de vinho tinto seco', 18.00, 3, TRUE, TRUE),
+
+-- Categoria 4: Entradas
+('Bruschetta', 'Pão italiano tostado com tomate, manjericão e azeite', 15.00, 4, TRUE, FALSE),
+('Tábua de Frios', 'Seleção de queijos, presuntos e salames', 35.00, 4, TRUE, TRUE),
+('Antepasto de Berinjela', 'Berinjela assada com pimentões e azeite', 12.00, 4, TRUE, FALSE),
+('Caprese', 'Salada caprese com tomate, mussarela de búfala e manjericão', 18.00, 4, TRUE, TRUE),
+
+-- Categoria 5: Pizzas
+('Pizza Margherita', 'Molho de tomate, mussarela, manjericão e azeite', 28.00, 5, TRUE, TRUE),
+('Pizza Calabresa', 'Molho de tomate, mussarela e calabresa', 30.00, 5, TRUE, FALSE),
+('Pizza Quatro Queijos', 'Molho de tomate e mistura de quatro queijos', 35.00, 5, TRUE, TRUE),
+('Pizza Portuguesa', 'Molho de tomate, mussarela, presunto, ovo e cebola', 32.00, 5, TRUE, FALSE),
+
+-- Categoria 6: Saladas
+('Salada Caesar', 'Alface, frango grelhado, croutons e molho Caesar', 20.00, 6, TRUE, FALSE),
+('Salada Grega', 'Pepino, tomate, azeitonas e queijo feta', 22.00, 6, TRUE, TRUE),
+('Salada de Quinoa', 'Quinoa, abacate, tomate e limão siciliano', 18.00, 6, TRUE, TRUE),
+('Salada Caprese', 'Tomate, mussarela de búfala e manjericão', 18.00, 6, TRUE, FALSE),
+('Salada Tropical', 'Frutas da estação, folhas verdes e molho de maracujá', 16.00, 6, TRUE, TRUE);
+
+
 
 -- Inserindo dados na tabela CLIENTES
 INSERT INTO CLIENTES (nome, telefone, email) VALUES 
