@@ -148,11 +148,12 @@ Aqui está o endereço fictício utilizado no Google Maps:
   - ![#8B4513](https://placehold.it/15/8B4513/000000?text=+) `#8B4513` (Marrom Rústico)
 
 ---
-**Site disponível no Vercel:** **projeto-proz-restaurante-italiano-7pyi.vercel.app**
-
-
 Essas tipografias e combinações de cores foram escolhidas para reforçar o tema italiano clássico e rústico, mantendo uma experiência de usuário agradável e coerente.
 
+
+- **Site disponível no Vercel:** [projeto-proz-restaurante-italiano-7pyi](https://projeto-proz-restaurante-italiano-7pyi)
+
+- **Acesse a documentação para implementar a** [Base de Dados](/db/DATABASE.md)
 
 ## 🏛 Direitos Autorais
 
