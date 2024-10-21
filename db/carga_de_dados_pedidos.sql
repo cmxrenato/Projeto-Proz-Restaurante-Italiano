@@ -59,7 +59,8 @@ INSERT INTO CLIENTES (nome, telefone, email) VALUES
 ('Maria Oliveira', '21988888888', 'maria.oliveira@email.com'),
 ('Carlos Pereira', '31977777777', 'carlos.pereira@email.com'),
 ('Ana Souza', '41966666666', 'ana.souza@email.com'),
-('Lucas Fernandes', '51955555555', 'lucas.fernandes@email.com');
+('Lucas Fernandes', '51955555555', 'lucas.fernandes@email.com'),
+('Mário','232233223','mario@email.com');
 
 -- Inserindo dados na tabela PEDIDOS
 INSERT INTO PEDIDOS (id_cliente, data_pedido, status_pedido, valor_total) VALUES 
