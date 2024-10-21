@@ -86,49 +86,49 @@ No DER, podemos visualizar essas entidades conectadas com linhas que representam
 
 Isso deve cobrir o funcionamento básico de um restaurante, incluindo reservas, pedidos, categorias de pratos e pagamentos.
 
-![Diagrama do Sistema](/db/exports/tutti_nostri_full.png)
+![Diagrama do Sistema](/db/exports/DER/tutti_nostri_full.png)
 
 
 ## Relacionamentos Chave Estrangeira
 `PRATOS (id_categoria)` → `CATEGORIAS (id_categoria)`
 
-![Diagrama do Sistema](/db/exports/tutti_nostri_pratos.png)
+![Diagrama do Sistema](/db/exports/DER/tutti_nostri_pratos.png)
 
 `PEDIDOS (id_cliente)` → `CLIENTES (id_cliente)`
 
-![Diagrama do Sistema](/db/exports/tutti_nostri_pedidos.png)
+![Diagrama do Sistema](/db/exports/DER/tutti_nostri_pedidos.png)
 
 `ITENS_PEDIDO (id_pedido)` → `PEDIDOS (id_pedido)`
 
 `ITENS_PEDIDO (id_prato)` → `PRATOS (id_prato)`
 
-![Diagrama do Sistema](/db/exports/tutti_nostri_itens_pedido.png)
+![Diagrama do Sistema](/db/exports/DER/tutti_nostri_itens_pedido.png)
 
 `PAGAMENTOS (id_pedido)` → `PEDIDOS (id_pedido)`
 
-![Diagrama do Sistema](/db/exports/tutti_nostri_pagamentos.png)
+![Diagrama do Sistema](/db/exports/DER/tutti_nostri_pagamentos.png)
 
 
 
 `RESERVAS (id_cliente)` → `CLIENTES (id_cliente)`
 
-![Diagrama do Sistema](/db/exports/tutti_nostri_reservas.png)
+![Diagrama do Sistema](/db/exports/DER/tutti_nostri_reservas.png)
 
  `PRESENTES (id_cliente)` → `CLIENTES (id_cliente)`
 
-![Diagrama do Sistema](/db/exports/tutti_nostri_presentes.png)
+![Diagrama do Sistema](/db/exports/DER/tutti_nostri_presentes.png)
 
 
 
 ## Outras Tabelas
 `CATEGORIAS`
 
-![Diagrama do Sistema](/db/exports/tutti_nostri_categorias.png)
+![Diagrama do Sistema](/db/exports/DER/tutti_nostri_categorias.png)
 
 
 `EVENTOS`
 
-![Diagrama do Sistema](/db/exports/tutti_nostri_eventos.png)
+![Diagrama do Sistema](/db/exports/DER/tutti_nostri_eventos.png)
 
 
 ## Implementação (Usando SGDB Online)
