@@ -13,7 +13,8 @@ CREATE TABLE PRATOS (
     descricao TEXT,
     preco DECIMAL(10, 2) NOT NULL,
     id_categoria INT REFERENCES CATEGORIAS(id_categoria),
-    disponivel BOOLEAN DEFAULT TRUE
+    disponivel BOOLEAN DEFAULT TRUE,
+    sugestao_chef BOOLEAN DEFAULT FALSE -- Nova coluna
 );
 
 -- Tabela CLIENTES (Renato)
