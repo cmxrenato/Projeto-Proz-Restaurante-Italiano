@@ -151,7 +151,7 @@ Aqui está o endereço fictício utilizado no Google Maps:
 Essas tipografias e combinações de cores foram escolhidas para reforçar o tema italiano clássico e rústico, mantendo uma experiência de usuário agradável e coerente.
 
 
-- **Site disponível no Vercel:** [https://projeto-proz-restaurante-italiano-7pyi.vercel.app/](https://projeto-proz-restaurante-italiano-7pyi.vercel.app/)
+- **Site disponível no Vercel:** [https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/](https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/)
 
 - **Acesse a documentação para implementar a** [Base de Dados](/db/DATABASE.md)
 
