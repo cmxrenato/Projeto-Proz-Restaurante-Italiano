@@ -103,6 +103,19 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    
+    padding-right: 30px;
+    width: 100%;
+    
+    
+  }
+  .cartao-fixo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+    margin-right: 30px;
+    
   }
   
   #b-direito,
