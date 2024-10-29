@@ -15,7 +15,8 @@ Integrantes:
 - Poliana Ribeiro (https://www.linkedin.com/in/polianar/)
 
 - Michael Machado Cavalcante
-**LinkedIn:** [LinkedIn][1]
+* **LinkedIn:** [LinkedIn][1]
+
 [1]: https://www.linkedin.com/in/michaelmachadocavalcante/
 
 - Gislene Mota (https://www.linkedin.com/in/gislene-mota-45564b162/)
