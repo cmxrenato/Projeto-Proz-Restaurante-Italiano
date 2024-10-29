@@ -14,8 +14,7 @@ Integrantes:
 
 - Poliana Ribeiro (https://www.linkedin.com/in/polianar/)
 
-- Michael Machado Cavalcante
-* **LinkedIn:** [LinkedIn][1]
+- Michael Machado Cavalcante * **LinkedIn:** [LinkedIn][1]
 
 [1]: https://www.linkedin.com/in/michaelmachadocavalcante/
 
