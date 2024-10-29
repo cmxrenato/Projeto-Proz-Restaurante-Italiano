@@ -128,9 +128,9 @@ Aqui está o endereço fictício utilizado no Google Maps:
 
 [Ver no Google Maps](https://www.google.com/maps)
 
-**Site disponível no Vercel:** [https://projeto-proz-restaurante-italiano-7pyi.vercel.app/](https://projeto-proz-restaurante-italiano-7pyi.vercel.app/)
+**Site disponível no Vercel:** [https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/](https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/)
 
-[![Site](https://img.shields.io/website?label=restauranteitaliano.app&style=for-the-badge&url=https://projeto-proz-restaurante-italiano-7pyi.vercel.app/)](https://projeto-proz-restaurante-italiano-7pyi.vercel.app/)
+[![Site](https://img.shields.io/website?label=restauranteitaliano.app&style=for-the-badge&url=https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/)](https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/)
 
 **Acesse a documentação para implementar a** [Base de Dados](/db/DATABASE.md)
 
