@@ -2,6 +2,36 @@
 
 Bem-vindo ao repositório do **Tutti Nostri Ristorante**! Este projeto contém o código fonte do site do restaurante, desenvolvido para proporcionar uma experiência agradável e intuitiva aos visitantes. O site inclui páginas para acessar o cardápio, saber mais sobre o restaurante, entrar em contato, reservar uma mesa, e muito mais.
 
+# :neckbeard: Quem Somos Nós
+
+Inovando juntos para transformar ideias em soluções.
+
+Integrantes:
+
+- Renato Araújo Leal * [LinkedIn][1]
+
+[1]: https://www.linkedin.com/in/renato-ara%C3%BAjo-leal-b92320186/
+
+- Janei Vieira * [LinkedIn][2]
+
+[2]: https://www.linkedin.com/in/janei-vieira/  
+
+- Poliana Ribeiro * [LinkedIn][3]
+
+[3]: https://www.linkedin.com/in/polianar/ 
+
+- Michael Machado Cavalcante * [LinkedIn][4]
+
+[4]: https://www.linkedin.com/in/michaelmachadocavalcante/
+
+- Gislene Mota * [LinkedIn][5]
+
+[5]: https://www.linkedin.com/in/gislene-mota-45564b162/ 
+
+- João Antônio de Souza Neto * [LinkedIn][6]
+
+[6]: https://www.linkedin.com/in/joaoasouzan/ 
+
 ## 📜 Descrição
 
 O site do **Tutti Nostri Ristorante** foi cuidadosamente projetado para guiar os usuários através das diversas ofertas do restaurante, desde o cardápio até a reserva de mesas. Cada página do site foi criada com um propósito específico, garantindo que os visitantes tenham todas as informações necessárias ao seu alcance.
@@ -151,7 +181,7 @@ Aqui está o endereço fictício utilizado no Google Maps:
 Essas tipografias e combinações de cores foram escolhidas para reforçar o tema italiano clássico e rústico, mantendo uma experiência de usuário agradável e coerente.
 
 
-- **Site disponível no Vercel:** [https://projeto-proz-restaurante-italiano-7pyi.vercel.app/](https://projeto-proz-restaurante-italiano-7pyi.vercel.app/)
+- **Site disponível no Vercel:** [https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/](https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/)
 
 - **Acesse a documentação para implementar a** [Base de Dados](/db/DATABASE.md)
 
