@@ -2,6 +2,25 @@
 
 Bem-vindo ao repositório do **Tutti Nostri Ristorante**! Este projeto contém o código fonte do site do restaurante, desenvolvido para proporcionar uma experiência agradável e intuitiva aos visitantes. O site inclui páginas para acessar o cardápio, saber mais sobre o restaurante, entrar em contato, reservar uma mesa, e muito mais.
 
+# 🧑🏽‍💻 Quem Somos nós
+
+Inovando juntos para transformar ideias em soluções.
+
+Integrantes:
+
+- Renato Araújo Leal (https://www.linkedin.com/in/renato-ara%C3%BAjo-leal-b92320186/)
+
+- Janei Vieira (https://www.linkedin.com/in/janei-vieira/)
+
+- Poliana Ribeiro (https://www.linkedin.com/in/polianar/)
+
+- Michael Machado Cavalcante (https://www.linkedin.com/in/michaelmachadocavalcante/)
+
+- Gislene Mota (https://www.linkedin.com/in/gislene-mota-45564b162/)
+
+- João Antônio de Souza Neto (https://www.linkedin.com/in/joaoasouzan/)
+
+
 ## 📜 Descrição
 
 O site do **Tutti Nostri Ristorante** foi cuidadosamente projetado para guiar os usuários através das diversas ofertas do restaurante, desde o cardápio até a reserva de mesas. Cada página do site foi criada com um propósito específico, garantindo que os visitantes tenham todas as informações necessárias ao seu alcance.
