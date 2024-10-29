@@ -8,29 +8,36 @@ Inovando juntos para transformar ideias em soluções.
 
 Integrantes:
 
-- Renato Araújo Leal * [LinkedIn][1]
+#### Renato Araújo Leal
 
-[1]: https://www.linkedin.com/in/renato-ara%C3%BAjo-leal-b92320186/
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cmxrenato)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/renato-ara%C3%BAjo-leal-b92320186/)
 
-- Janei Vieira * [LinkedIn][2]
+#### Janei Vieira
 
-[2]: https://www.linkedin.com/in/janei-vieira/  
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/oMaestro174)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/janei-vieira/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:taguardado.net@gmail.com)
 
-- Poliana Ribeiro * [LinkedIn][3]
+#### Poliana Ribeiro
 
-[3]: https://www.linkedin.com/in/polianar/ 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/polianarm)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/polianar/)
 
-- Michael Machado Cavalcante * [LinkedIn][4]
+#### Michael Machado Cavalcante
 
-[4]: https://www.linkedin.com/in/michaelmachadocavalcante/
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MikeMacCav)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michaelmachadocavalcante/)
 
-- Gislene Mota * [LinkedIn][5]
+#### Gislene Mota
 
-[5]: https://www.linkedin.com/in/gislene-mota-45564b162/ 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gimota)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gislene-mota-45564b162/)
 
-- João Antônio de Souza Neto * [LinkedIn][6]
+#### João Antônio de Souza Neto
 
-[6]: https://www.linkedin.com/in/joaoasouzan/ 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoaoASouzaN)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaoasouzan/)
 
 ## 📜 Descrição
 
@@ -52,10 +59,9 @@ O site do **Tutti Nostri Ristorante** foi cuidadosamente projetado para guiar os
 - **`main`**: A área principal de cada página, com conteúdo variado conforme descrito nas seções acima.
 - **`footer`**: O rodapé com o nome do restaurante e os direitos autorais, visível em todas as páginas.
 
-
 **Página de layout no figma**:
    - Acesse a página onde toda construção de layout foi concebida:
-[https://www.figma.com/design/3OHNmXB2datUy9h16ETRLr/Tutti-Nostri-Ristorante---Web-Site?node-id=0-1&t=IpX0DckKhyfrkRAu-1) ](https://www.figma.com/design/3OHNmXB2datUy9h16ETRLr/Tutti-Nostri-Ristorante---Web-Site?node-id=0-1&t=IpX0DckKhyfrkRAu-1) 
+[https://www.figma.com/design/3OHNmXB2datUy9h16ETRLr/Tutti-Nostri-Ristorante---Web-Site?node-id=0-1&t=IpX0DckKhyfrkRAu-1)](https://www.figma.com/design/3OHNmXB2datUy9h16ETRLr/Tutti-Nostri-Ristorante---Web-Site?node-id=0-1&t=IpX0DckKhyfrkRAu-1) 
 
 ## 📝 Funcionalidades Específicas
 
@@ -90,7 +96,6 @@ Aqui, os usuários podem comprar cartões presente, perfeitos para oferecer como
      git clone https://github.com/cmxrenato/Projeto-Proz-Restaurante-Italiano/tree/novo-layout
      ```
 
-
 2. **Navegar para o Diretório**:
    - Entre na pasta do projeto clonado:
      ```bash
@@ -123,69 +128,12 @@ Aqui está o endereço fictício utilizado no Google Maps:
 
 [Ver no Google Maps](https://www.google.com/maps)
 
+**Site disponível no Vercel:** [https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/](https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/)
 
-## Estilos do Site
+[![Site](https://img.shields.io/website?label=restauranteitaliano.app&style=for-the-badge&url=https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/)](https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/)
 
-### 1. Títulos e Cabeçalhos
-- **Fonte:** Cinzel (Serifada, elegante, com um toque clássico)
-- **Cor:** 
-  - ![#064635](https://placehold.it/15/064635/000000?text=+) `#064635` (Verde Escuro)
-  - ![#8B1A1A](https://placehold.it/15/8B1A1A/000000?text=+) `#8B1A1A` (Vermelho Escuro)
-- **Tamanho:** Grande (24-36px)
+**Acesse a documentação para implementar a** [Base de Dados](/db/DATABASE.md)
 
-### 2. Subtítulos e Seções Importantes
-- **Fonte:** Playfair Display (Serifada, sofisticada)
-- **Cor:** 
-  - ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF` (Branco) sobre fundo escuro
-  - ![#C9A67C](https://placehold.it/15/C9A67C/000000?text=+) `#C9A67C` (Dourado)
-- **Tamanho:** Médio (18-24px)
+## Licença
 
-### 3. Texto Corporal
-- **Fonte:** Inter (Sans-serif, moderna e legível)
-- **Cor:** 
-  - ![#333333](https://placehold.it/15/333333/000000?text=+) `#333333` (Cinza Escuro)
-  - ![#000000](https://placehold.it/15/000000/000000?text=+) `#000000` (Preto) sobre fundo claro
-- **Tamanho:** Padrão (14-18px)
-
-### 4. Links e Botões
-- **Fonte:** Inter (Sans-serif, moderna e legível)
-- **Cor:** 
-  - ![#C9302C](https://placehold.it/15/C9302C/000000?text=+) `#C9302C` (Vermelho Intenso) para botões
-  - ![#007B3C](https://placehold.it/15/007B3C/000000?text=+) `#007B3C` (Verde) para links
-- **Efeitos:** 
-  - Substituição de cor ao passar o mouse (hover), como o texto se tornar ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF` com um fundo colorido correspondente.
-
-### 5. Rodapé e Texto Secundário
-- **Fonte:** Inter (Sans-serif, moderna e legível)
-- **Cor:** 
-  - ![#757575](https://placehold.it/15/757575/000000?text=+) `#757575` (Cinza Claro)
-  - ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF` (Branco) sobre fundo escuro
-- **Tamanho:** Pequeno (12-14px)
-
-### 6. Logotipo e Nome do Restaurante
-- **Fonte:** Cinzel (Serifada, elegante e clássica)
-- **Cor:** 
-  - ![#D4AF37](https://placehold.it/15/D4AF37/000000?text=+) `#D4AF37` (Dourado)
-  - ![#CD7F32](https://placehold.it/15/CD7F32/000000?text=+) `#CD7F32` (Bronze) para destacar o nome
-
-### 7. Sugestão de Combinações de Cores
-- **Fundo:**
-  - ![#F5F5DC](https://placehold.it/15/F5F5DC/000000?text=+) `#F5F5DC` (Bege Claro)
-  - ![#FAF9F6](https://placehold.it/15/FAF9F6/000000?text=+) `#FAF9F6` (Branco Suave)
-- **Destaques:**
-  - ![#556B2F](https://placehold.it/15/556B2F/000000?text=+) `#556B2F` (Verde Oliva)
-  - ![#8B1C1C](https://placehold.it/15/8B1C1C/000000?text=+) `#8B1C1C` (Vermelho Vinho)
-  - ![#8B4513](https://placehold.it/15/8B4513/000000?text=+) `#8B4513` (Marrom Rústico)
-
----
-Essas tipografias e combinações de cores foram escolhidas para reforçar o tema italiano clássico e rústico, mantendo uma experiência de usuário agradável e coerente.
-
-
-- **Site disponível no Vercel:** [https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/](https://projeto-proz-restaurante-italiano-mt8rnkipg.vercel.app/)
-
-- **Acesse a documentação para implementar a** [Base de Dados](/db/DATABASE.md)
-
-## 🏛 Direitos Autorais
-
-&copy; 2024 Tutti Nostri Ristorante. Todos os direitos reservados.
-
+Este projeto está licenciado sob a [MIT License](LICENSE).
