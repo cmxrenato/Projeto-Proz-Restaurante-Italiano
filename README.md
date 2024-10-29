@@ -8,20 +8,29 @@ Inovando juntos para transformar ideias em soluções.
 
 Integrantes:
 
-- Renato Araújo Leal (https://www.linkedin.com/in/renato-ara%C3%BAjo-leal-b92320186/)
+- Renato Araújo Leal * [LinkedIn][1]
 
-- Janei Vieira (https://www.linkedin.com/in/janei-vieira/)
+[1]: https://www.linkedin.com/in/renato-ara%C3%BAjo-leal-b92320186/
 
-- Poliana Ribeiro (https://www.linkedin.com/in/polianar/)
+- Janei Vieira * [LinkedIn][2]
 
-- Michael Machado Cavalcante * [LinkedIn][1]
+[2]: https://www.linkedin.com/in/janei-vieira/  
 
-[1]: https://www.linkedin.com/in/michaelmachadocavalcante/
+- Poliana Ribeiro * [LinkedIn][3]
 
-- Gislene Mota (https://www.linkedin.com/in/gislene-mota-45564b162/)
+[3]: https://www.linkedin.com/in/polianar/ 
 
-- João Antônio de Souza Neto (https://www.linkedin.com/in/joaoasouzan/)
+- Michael Machado Cavalcante * [LinkedIn][4]
 
+[4]: https://www.linkedin.com/in/michaelmachadocavalcante/
+
+- Gislene Mota * [LinkedIn][5]
+
+[5]: https://www.linkedin.com/in/gislene-mota-45564b162/ 
+
+- João Antônio de Souza Neto * [LinkedIn][6]
+
+[6]: https://www.linkedin.com/in/joaoasouzan/ 
 
 ## 📜 Descrição
 
