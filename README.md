@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do **Tutti Nostri Ristorante**! Este projeto contém o código fonte do site do restaurante, desenvolvido para proporcionar uma experiência agradável e intuitiva aos visitantes. O site inclui páginas para acessar o cardápio, saber mais sobre o restaurante, entrar em contato, reservar uma mesa, e muito mais.
 
-# 🧑🏽‍💻 Quem Somos nós
+# https://icons8.com.br/icon/FUZiNN6aw2Rb/hard-working Quem Somos nós
 
 Inovando juntos para transformar ideias em soluções.
 
